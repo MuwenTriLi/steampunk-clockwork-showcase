@@ -62,3 +62,33 @@ The visual selection uses existing renders and recordings supplied by Muwen Li. 
 Only presentation copies were created. Original models, images, videos and folder organization were left unchanged. Individual rendered thumbnails are byte-for-byte copies. The individual GIFs preserve the full source composition, with reduced resolution, frame rate and color precision for browsing. MP4 viewing copies retain their source composition and playback speed and omit audio.
 
 CLK23 and SPM11 were withdrawn from the current visual selection at the author's request. No retouching, relighting or new AI-generated render was used. These media document existing work and do not constitute a new technical audit of the Blender package.
+
+## Compact motion atlas and 4K cover
+
+The homepage uses 20 individual animation cards at 320 x 400 pixels, displayed four per row. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
+
+The separate 480-pixel-wide motion files remain available to the detailed control walkthrough. The 4K cover is an original video frame, not an enlarged GIF.
+
+| File | Original source | Preparation |
+| --- | --- | --- |
+| `media/motion-clk08.gif` | `Video/Individual render/CLK08.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-spm14.gif` | `Video/Individual render/SPM14.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk31.gif` | `Video/Individual render/CLK31.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk32.gif` | `Video/Individual render/CLK32.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk02.gif` | `Video/Individual render/CLK02.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk03.gif` | `Video/Individual render/CLK03.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk04.gif` | `Video/Individual render/CLK04.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk05.gif` | `Video/Individual render/CLK05.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk06.gif` | `Video/Individual render/CLK06.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk07.gif` | `Video/Individual render/CLK07.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk09.gif` | `Video/Individual render/CLK09.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk10.gif` | `Video/Individual render/CLK10.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk11.gif` | `Video/Individual render/CLK11.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk12.gif` | `Video/Individual render/CLK12.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk14.gif` | `Video/Individual render/CLK14.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk15.gif` | `Video/Individual render/CLK15.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk17.gif` | `Video/Individual render/CLK17.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk18.gif` | `Video/Individual render/CLK18.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk20.gif` | `Video/Individual render/CLK20.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk22.gif` | `Video/Individual render/CLK22.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/collection-hero-4k.jpg` | `Video/Overall.mp4` | Original 3840x2160 frame at 4.5 s; high-quality JPEG; no upscaling |
