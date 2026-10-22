@@ -1,6 +1,6 @@
 # STEAMPUNK CLOCKWORK
 
-### A reusable library of mechanical form and motion
+### Reusable mechanical assets, motion logic and a workflow Skill
 
 **46 animated Blender assets / 32 clocks / 14 mechanical assemblies / Editable controls**
 
@@ -8,11 +8,25 @@
 
 [Open the full-resolution 3840 x 2160 render](media/collection-hero-4k.jpg)
 
-[Product on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets) / [Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4) / [Render gallery](docs/render-gallery.md) / [Motion library](docs/motion-library.md)
+[Workflow + Skill](docs/workflow-skill.md) / [Read SKILL.md](skills/clockwork-assembly/SKILL.md) / [Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4) / [Render gallery](docs/render-gallery.md) / [Motion library](docs/motion-library.md) / [Product on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets)
 
 Steampunk Clockwork turns a design language of exposed gears, layered mechanisms and architectural frames into an adaptable Blender asset library. Use a complete assembly as a focal point, tune its motion to a shot, or develop a new composition from its editable components.
 
 I began with my own model collection and a set of design standards. Those standards guided the mechanical variations, the level of detail and the way movement is presented. Codex assisted with inspecting the files and developing structures within that direction.
+
+## The reusable workflow behind the assets
+
+The project combines **designed components**, **linked motion logic** and **an agent-guided adaptation workflow**. Its gears, frames, chains and architectural modules can be reused as complete assemblies or developed into a new composition, with the required motion dependencies retained or rebuilt.
+
+| Reusable capability | What it enables |
+| --- | --- |
+| Design rules | Develop related mechanical structures from an original model collection and a consistent visual brief. |
+| Motion logic | Connect controller inputs to gear rotation, chain movement, guided travel and unfolding. |
+| Parameter controls | Tune speed, phase and clock behavior without editing every moving component. |
+| Modular assembly | Reuse a complete mechanism or adapt selected parts, subassemblies and procedural materials. |
+| Product delivery | Browse, place and adjust an organized Asset Browser library with previews and instructions. |
+
+The [`clockwork-assembly` Skill](skills/clockwork-assembly/SKILL.md) packages the inspection, adaptation and checking procedure as reusable agent instructions. It was distilled for this showcase from the existing project workflow; a new end-to-end Skill run is still to be verified. [Explore the workflow, inputs and outputs](docs/workflow-skill.md).
 
 ## The collection in motion
 

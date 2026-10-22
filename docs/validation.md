@@ -11,3 +11,7 @@ This summary is based on the supplied package documentation. The portfolio prepa
 The supplied package contains files with later modification dates. The earlier audit must not be treated as a fresh verification of every later file revision.
 
 Before a new product release, checks should be rerun against that exact release package. This repository is a case study, not a new product release.
+
+## Packaged workflow Skill
+
+`skills/clockwork-assembly/SKILL.md` is a newly packaged instruction workflow based on the documented controls and reuse method. Its frontmatter and package structure were validated. No new Blender scene was modified and no end-to-end Skill execution was performed for this documentation update. Existing renders and release checks remain evidence of the asset project, not validation of a new Skill run.

@@ -28,6 +28,8 @@ An animated subassembly needs its controller, target objects and constraints. Re
 
 The product includes nine marked procedural material assets. These can support a consistent metal treatment across a new composition, or provide editable shader starting points. The supplied appearance uses native procedural nodes; no baked texture-map set is included.
 
+For agent-assisted adaptation, the [Clockwork assembly Skill](../skills/clockwork-assembly/SKILL.md) packages this sequence with controller guidance and explicit handover outputs.
+
 ## A practical adaptation sequence
 
 1. Choose a complete asset whose silhouette or movement suits the design.

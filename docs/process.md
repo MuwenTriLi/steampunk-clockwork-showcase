@@ -32,6 +32,10 @@ The product combines 46 animated asset collections, categorized Asset Browser en
 
 Components can also become source material for a new design. The [reuse guide](component-reuse.md) describes how to preserve animation dependencies when adapting a module, or work with selected geometry and materials.
 
+## Make the method reusable
+
+The [workflow Skill](workflow-skill.md) turns the documented adaptation method into explicit agent instructions: inspect the source and dependencies, choose a level of reuse, tune the available inputs, and check the working copy. The Skill is packaged alongside the case so a reviewer can inspect the procedure as well as its existing visual evidence.
+
 ## Evidence in this showcase
 
 The [render gallery](render-gallery.md) shows the supplied visual work, the [motion library](motion-library.md) shows existing animation and Blender recordings, and the [control guide](controls.md) summarizes documented parameters. The showcase makes no claim about measured time savings or a newly executed technical audit. See [validation scope](validation.md).
