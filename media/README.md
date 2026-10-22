@@ -1,3 +1,3 @@
 # Presentation media
 
-Selected existing product image, Asset Browser screenshot and Blender workflow recording. See [provenance](../docs/media.md).
+Original supplied renders, frame extracts and compressed animation previews used by the case study. Browse the [render gallery](../docs/render-gallery.md) or see [sources and transformations](../docs/media.md).
