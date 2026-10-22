@@ -2,11 +2,11 @@
 
 ### A reusable library of mechanical form and motion
 
-**46 animated Blender assets Â· 32 clocks Â· 14 mechanical assemblies Â· Editable controls**
+**46 animated Blender assets  /  32 clocks  /  14 mechanical assemblies  /  Editable controls**
 
 ![Rendered clock collection in motion](media/collection-motion.gif)
 
-[Product on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets) Â· [Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4) Â· [Render gallery](docs/render-gallery.md) Â· [Motion library](docs/motion-library.md)
+[Product on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets)  /  [Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4)  /  [Render gallery](docs/render-gallery.md)  /  [Motion library](docs/motion-library.md)
 
 Steampunk Clockwork turns a design language of exposed gears, layered mechanisms and architectural frames into an adaptable Blender asset library. Use a complete assembly as a focal point, tune its motion to a shot, or develop a new composition from its editable components.
 
@@ -15,9 +15,9 @@ I began with my own model collection and a set of design standards. Those standa
 ## Motion is part of the design
 
 <table>
-<tr><th width="50%">CLK08 Â· Rotating clockwork</th><th width="50%">SPM14 Â· Suspended mechanism</th></tr>
+<tr><th width="50%">CLK08  /  Rotating clockwork</th><th width="50%">SPM14  /  Suspended mechanism</th></tr>
 <tr><td><img src="media/clock-08-motion.gif" alt="CLK08 moving geometry study" width="100%"></td><td><img src="media/differential-motion.gif" alt="SPM14 moving differential study" width="100%"></td></tr>
-<tr><th>CLK31 Â· Guided travel</th><th>CLK32 Â· Opening and folding</th></tr>
+<tr><th>CLK31  /  Guided travel</th><th>CLK32  /  Opening and folding</th></tr>
 <tr><td><img src="media/orbit-motion.gif" alt="CLK31 guided movement animation" width="100%"></td><td><img src="media/aperture-motion.gif" alt="CLK32 unfolding observatory animation" width="100%"></td></tr>
 </table>
 
@@ -27,31 +27,31 @@ The neutral Blender views make the moving structure readable: small rotating par
 
 <table>
 <tr>
-<td width="50%"><a href="media/clock-08.png"><img src="media/clock-08.png" alt="CLK08 original rendered asset" width="100%"></a><br><b>CLK08 Â· Exposed clock movement</b></td>
-<td width="50%"><a href="media/differential-instrument.png"><img src="media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14 Â· Equinox differential instrument</b></td>
+<td width="50%"><a href="media/clock-08.png"><img src="media/clock-08.png" alt="CLK08 original rendered asset" width="100%"></a><br><b>CLK08  /  Exposed clock movement</b></td>
+<td width="50%"><a href="media/differential-instrument.png"><img src="media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14  /  Equinox differential instrument</b></td>
 </tr>
 <tr>
-<td width="50%"><a href="media/orbit.png"><img src="media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31 Â· Orbit archive exchange</b></td>
-<td width="50%"><a href="media/aperture.png"><img src="media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32 Â· Aperture observatory</b></td>
+<td width="50%"><a href="media/orbit.png"><img src="media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31  /  Orbit archive exchange</b></td>
+<td width="50%"><a href="media/aperture.png"><img src="media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32  /  Aperture observatory</b></td>
 </tr>
 </table>
 
-Four different silhouettes share a vocabulary of metal surfaces, visible transmission parts and intricate secondary details. [Browse 26 selected renders](docs/render-gallery.md), including the original CLK01â€“22 series.
+Four different silhouettes share a vocabulary of metal surfaces, visible transmission parts and intricate secondary details. [Browse 26 selected renders](docs/render-gallery.md), including the original CLK01-22 series.
 
 ## A control system behind each assembly
 
 Built-in settings drive motion through native Blender drivers, object hierarchies and constraints. Adjust the root controller; the connected parts follow their existing relationships.
 
-**Controller inputs â†’ linked motion â†’ moving components**
+**Controller inputs -> linked motion -> moving components**
 
 | What you want to change | Example controls | What they affect |
 | --- | --- | --- |
-| Chain movement | SPM03 Â· `Chain_Drive_Speed` | Chain speed, alongside the assembly's overall speed and phase settings. |
-| Gear rotation | CLK08 Â· `Gear_Display_Speed` | Visible mechanism speed; clock-hand timing has separate controls. |
-| Opening and folding rhythm | CLK32 Â· `Master_RPM`, `Speed_Scale`, `Phase_Deg` | The input speed and phase driving the unfolding mechanism. |
-| Travel along an existing path | CLK31 Â· `Master_RPM`, `Speed_Scale` | The pace of the connected rail mechanism. |
-| Clock behavior | CLK08 Â· `Start_Hour`, `Start_Minute`, `Start_Second`, `Second_Tick_Blend` | Initial time and smooth or stepped seconds. |
-| Gear detail on supported assets | CLK31 / CLK32 Â· `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
+| Chain movement | SPM03  /  `Chain_Drive_Speed` | Chain speed, alongside the assembly's overall speed and phase settings. |
+| Gear rotation | CLK08  /  `Gear_Display_Speed` | Visible mechanism speed; clock-hand timing has separate controls. |
+| Opening and folding rhythm | CLK32  /  `Master_RPM`, `Speed_Scale`, `Phase_Deg` | The input speed and phase driving the unfolding mechanism. |
+| Travel along an existing path | CLK31  /  `Master_RPM`, `Speed_Scale` | The pace of the connected rail mechanism. |
+| Clock behavior | CLK08  /  `Start_Hour`, `Start_Minute`, `Start_Second`, `Second_Tick_Blend` | Initial time and smooth or stepped seconds. |
+| Gear detail on supported assets | CLK31 / CLK32  /  `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
 
 Controls vary by asset. Opening angles and positions may be calculated outputs, so adjustments belong upstream in the controller. [Explore the controls](docs/controls.md).
 
@@ -78,9 +78,9 @@ For a working animated module, retain its controller, hierarchy and driver depen
 | Expose the controls | Organize adjustment points for each assembly | Reusable assets with documented parameters. |
 | Package the collection | Categories, previews, materials and instructions | A library another Blender user can browse, place and adapt. |
 
-[Design and development process](docs/process.md) Â· [Creative workflows portfolio](https://github.com/MuwenTriLi/creative-workflows)
+[Design and development process](docs/process.md)  /  [Creative workflows portfolio](https://github.com/MuwenTriLi/creative-workflows)
 
-## Browse Â· place Â· adjust Â· animate
+## Browse  /  place  /  adjust  /  animate
 
 Register the product's `Asset Library` folder in Blender, choose a complete asset collection, place it in your scene, then select its root controller to adjust the available parameters.
 
@@ -91,7 +91,7 @@ Register the product's `Asset Library` folder in Blender, choose a complete asse
 
 [![Blender library tour preview](media/blender-library-tour-poster.jpg)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/blender-library-tour.mp4)
 
-[Download the 15-second library tour](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/blender-library-tour.mp4) Â· [Collection animation in the viewport](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4)
+[Download the 15-second library tour](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/blender-library-tour.mp4)  /  [Collection animation in the viewport](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4)
 
 </details>
 

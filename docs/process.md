@@ -28,7 +28,7 @@ The control reference distinguishes editable settings from calculated outputs. T
 
 ## Package the work for another creator
 
-The product combines 46 animated asset collections, categorized Asset Browser entries, custom previews, procedural materials, presentation scenes and documentation. Together these provide a browse → place → adjust → animate workflow.
+The product combines 46 animated asset collections, categorized Asset Browser entries, custom previews, procedural materials, presentation scenes and documentation. Together these provide a browse -> place -> adjust -> animate workflow.
 
 Components can also become source material for a new design. The [reuse guide](component-reuse.md) describes how to preserve animation dependencies when adapting a module, or work with selected geometry and materials.
 

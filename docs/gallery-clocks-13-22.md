@@ -1,6 +1,6 @@
-# Original clock series · 13–22
+# Original clock series  /  13-22
 
-[Case study](../README.md) · [Gallery index](render-gallery.md) · [Clocks 01–12](gallery-clocks-01-12.md) · [Clocks 13–22](gallery-clocks-13-22.md)
+[Case study](../README.md)  /  [Gallery index](render-gallery.md)  /  [Clocks 01-12](gallery-clocks-01-12.md)  /  [Clocks 13-22](gallery-clocks-13-22.md)
 
 Original rendered thumbnails selected by the author. Click any image for its full-size view.
 

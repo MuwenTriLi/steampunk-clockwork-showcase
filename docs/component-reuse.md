@@ -1,16 +1,16 @@
 # Reuse an assembly, a component or a material
 
-[Case study](../README.md) · [Render gallery](render-gallery.md) · [Controls](controls.md)
+[Case study](../README.md)  /  [Render gallery](render-gallery.md)  /  [Controls](controls.md)
 
 The collection is intended to be adapted to new compositions and visual directions. Its editable Blender structure supports different levels of reuse.
 
-## 1 · Keep the complete mechanism
+## 1  /  Keep the complete mechanism
 
 Place a complete clock or machine into a scene, adjust its overall position and scale, and tune its available motion controls. This preserves the relationships that make the asset animate as a unit.
 
 ![Orbit architectural assembly](../media/orbit.png)
 
-## 2 · Develop a component into a new design
+## 2  /  Develop a component into a new design
 
 Start with a duplicate of the asset and make the collection instance real. Review the component hierarchy before selecting gears, frames, shafts or decorative parts to use elsewhere. Adapt the composition, geometry and materials to the new design direction.
 
@@ -24,7 +24,7 @@ An animated subassembly needs its controller, target objects and constraints. Re
 </tr>
 </table>
 
-## 3 · Carry the material language into a new scene
+## 3  /  Carry the material language into a new scene
 
 The product includes nine marked procedural material assets. These can support a consistent metal treatment across a new composition, or provide editable shader starting points. The supplied appearance uses native procedural nodes; no baked texture-map set is included.
 

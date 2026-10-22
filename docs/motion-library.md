@@ -1,6 +1,6 @@
 # Motion library
 
-[Case study](../README.md) Ã‚Â· [Rendered assets](render-gallery.md) Ã‚Â· [Controls](controls.md)
+[Case study](../README.md)  /  [Rendered assets](render-gallery.md)  /  [Controls](controls.md)
 
 ## Finished collection
 
@@ -11,9 +11,9 @@
 ## Four individual mechanisms
 
 <table>
-<tr><th width="50%">CLK08 Ã‚Â· Clockwork</th><th width="50%">SPM14 Ã‚Â· Differential instrument</th></tr>
+<tr><th width="50%">CLK08  /  Clockwork</th><th width="50%">SPM14  /  Differential instrument</th></tr>
 <tr><td><img src="../media/clock-08-motion.gif" alt="CLK08 motion" width="100%"></td><td><img src="../media/differential-motion.gif" alt="SPM14 motion" width="100%"></td></tr>
-<tr><th>CLK31 Ã‚Â· Guided travel</th><th>CLK32 Ã‚Â· Unfolding</th></tr>
+<tr><th>CLK31  /  Guided travel</th><th>CLK32  /  Unfolding</th></tr>
 <tr><td><img src="../media/orbit-motion.gif" alt="CLK31 motion" width="100%"></td><td><img src="../media/aperture-motion.gif" alt="CLK32 motion" width="100%"></td></tr>
 </table>
 
@@ -26,7 +26,7 @@ These neutral geometry views emphasize the moving structure. Each preview is a f
 <tr><td><a href="https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/lineweight-collection.mp4"><img src="../media/lineweight-collection-poster.jpg" alt="Download the linework collection video" width="100%"></a></td><td><a href="https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4"><img src="../media/viewport-collection-poster.jpg" alt="Download the Blender viewport collection" width="100%"></a></td></tr>
 </table>
 
-[Download linework collection](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/lineweight-collection.mp4) Ã‚Â· [Download viewport collection](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4)
+[Download linework collection](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/lineweight-collection.mp4)  /  [Download viewport collection](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4)
 
 ## Browse the asset library
 

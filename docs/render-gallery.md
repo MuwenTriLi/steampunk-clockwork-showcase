@@ -1,6 +1,6 @@
 # Render gallery
 
-[Case study](../README.md) · [Clocks 01–12](gallery-clocks-01-12.md) · [Clocks 13–22](gallery-clocks-13-22.md) · [Motion library](motion-library.md)
+[Case study](../README.md)  /  [Clocks 01-12](gallery-clocks-01-12.md)  /  [Clocks 13-22](gallery-clocks-13-22.md)  /  [Motion library](motion-library.md)
 
 26 selected original asset renders, with the author's preferred clock series presented first. Images open at their supplied resolution.
 
@@ -16,12 +16,12 @@
 
 <table>
 <tr>
-<td width="50%"><a href="../media/orbit.png"><img src="../media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31 · Orbit</b></td>
-<td width="50%"><a href="../media/aperture.png"><img src="../media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32 · Aperture</b></td>
+<td width="50%"><a href="../media/orbit.png"><img src="../media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31  /  Orbit</b></td>
+<td width="50%"><a href="../media/aperture.png"><img src="../media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32  /  Aperture</b></td>
 </tr>
 <tr>
-<td width="50%"><a href="../media/differential-instrument.png"><img src="../media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14 · Equinox</b></td>
-<td width="50%"><a href="../media/chain-drive.png"><img src="../media/chain-drive.png" alt="SPM03 original rendered asset" width="100%"></a><br><b>SPM03 · Chain mechanism</b></td>
+<td width="50%"><a href="../media/differential-instrument.png"><img src="../media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14  /  Equinox</b></td>
+<td width="50%"><a href="../media/chain-drive.png"><img src="../media/chain-drive.png" alt="SPM03 original rendered asset" width="100%"></a><br><b>SPM03  /  Chain mechanism</b></td>
 </tr>
 </table>
 
@@ -29,8 +29,8 @@
 
 The detailed gallery is divided into two pages so the individual renders remain readable:
 
-- [CLK01–12 · Original clock forms](gallery-clocks-01-12.md)
-- [CLK13–22 · Dials, frames and architectural clocks](gallery-clocks-13-22.md)
+- [CLK01-12  /  Original clock forms](gallery-clocks-01-12.md)
+- [CLK13-22  /  Dials, frames and architectural clocks](gallery-clocks-13-22.md)
 
 ## Portrait presentation
 
