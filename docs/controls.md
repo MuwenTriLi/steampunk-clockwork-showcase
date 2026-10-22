@@ -1,38 +1,48 @@
-# Control walkthrough
+# Controls and linked motion
 
-[Back to the case study](../README.md)
+[Case study](../README.md) · [Component reuse](component-reuse.md) · [Motion examples](motion-library.md)
 
-These examples are taken from the supplied controller reference. They document existing controls; they are not a new interactive control test.
+The library connects editable inputs to moving geometry through native Blender drivers, hierarchies and constraints. Each root `*_ASSET_CTRL` groups the controls intended for that asset. The examples below are based on the supplied controller reference, not a new interactive test.
 
-## Place an asset
+## Chain speed · SPM03
 
-Register only the product's `Asset Library` subfolder in Blender preferences, then choose the library in the Asset Browser. Place the complete `CLK##_ASSET` or `SPM##_ASSET` collection. Preserve the object hierarchy, driver targets and constraints.
+![SPM03 chain assembly](../media/chain-drive.png)
 
-The collection origins are positioned at bottom center at the starting frame. For placement, transform the complete collection instance. To edit components, make the instance real and keep the animation dependencies intact.
+`Chain_Drive_Speed` is the chain-speed multiplier (recorded default 1.0). `Speed_Scale` controls the broader mechanism and `Time_Offset_Frames` offsets its phase. `Added_Mechanism_Speed` addresses the additional display mechanisms. This separates the pace of a visible chain from the other available movement controls.
 
-## Example 1 · CLK08 clock movement
+## Clock and gear timing · CLK08
 
-Select `CLK08_ASSET_CTRL` and open Object Properties → Custom Properties.
+![CLK08 rotation study](../media/clock-08-motion.gif)
 
-| Property | Recorded default | Meaning |
+| Input | Recorded default | Use |
 | --- | --- | --- |
-| `Start_Hour` / `Start_Minute` / `Start_Second` | 9 / 15 / 30 | Initial clock pose. |
-| `Time_Scale` | 1.0 | Clock playback speed multiplier. |
+| `Start_Hour` / `Start_Minute` / `Start_Second` | 9 / 15 / 30 | Set the initial clock pose. |
+| `Time_Scale` | 1.0 | Adjust clock playback speed. |
 | `Second_Tick_Blend` | 0.0 | 0 gives a smooth sweep; 1 gives one-second stepping. |
-| `Gear_Display_Speed` | 1.0 | Visible mechanism speed multiplier. |
-| `Time_Offset_Frames` | 0.0 | Procedural phase offset in frames. |
-| `Addon_Movement_Speed` | 1.0 | Speed multiplier for the additional tourbillon movement. |
+| `Gear_Display_Speed` | 1.0 | Adjust the visible mechanism's speed. |
+| `Time_Offset_Frames` | 0.0 | Offset procedural phase in frames. |
+| `Addon_Movement_Speed` | 1.0 | Adjust the additional tourbillon movement. |
 
-The property name `Addon_Movement_Speed` is an existing controller label. Using this asset library does not require installing a Blender add-on.
+`Addon_Movement_Speed` is an existing property label; using the model library does not require installing an add-on.
 
-## Example 2 · CLK23 meridian palace
+## Travel rhythm · CLK31 Orbit
 
-The root exposes `Master_RPM` (recorded default 3.0), `Speed_Scale`, `Time_Scale` and `Phase_Deg`. `Master_RPM` is the signed input speed; connected gears follow that input. `Input_Angle` is a calculated output rather than the main user control.
+![CLK31 guided travel study](../media/orbit-motion.gif)
 
-## Example 3 · SPM11 Oculus iris gate
+The captive-rail assembly exposes `Master_RPM` (default 3.0), `Speed_Scale`, `Time_Scale` and `Phase_Deg`. These settings adjust the input and timing of the connected mechanism. The existing track defines the motion path: the speed controls do not imply a universal path-drawing interface.
 
-`Master_RPM` has a recorded default of 1.5. The control reference identifies `Input_Angle`, `Ring_Angle` and `Leaf_Angle` as driven values. Adjust the upstream input controls rather than overwriting those calculated outputs.
+## Opening and folding · CLK32 Aperture
 
-## Playback notes
+![CLK32 unfolding study](../media/aperture-motion.gif)
 
-The documented range is frames 1–1441 at 24 fps. Run switches retain each asset's enable/reset semantics; they do not provide a universal pause-at-current-position operation. Controls and cycles vary between assets. The supplied animations are visualization systems, and arbitrary parameter changes have not been certified collision-free.
+`Master_RPM` (default 3.2), `Speed_Scale` and `Phase_Deg` set the pace and phase of the unfolding assembly. `Input_Angle` is a driven output. Adjust the upstream inputs instead of replacing that computed angle.
+
+## Detail and timing are different controls
+
+On CLK31 and CLK32, `Teeth_Multiplier` offers linked 1 / 2 / 3 tooth-density settings. The reference states that pitch radii and transmission ratios remain fixed. This changes geometric detail without treating tooth density as the speed control.
+
+## Placement and playback
+
+Register only the product's `Asset Library` folder. Append or instance the complete collection, preserving its hierarchy, constraints and driver targets. Move, rotate and uniformly scale the complete instance; avoid applying transforms to individually animated children.
+
+The documented playback range is frames 1–1441 at 24 fps. Run switches use enable/reset semantics, rather than a universal pause-at-current-position operation. Controls and cycles vary by asset. The rigs are visualization systems; arbitrary parameter combinations have not been certified collision-free.

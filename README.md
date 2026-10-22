@@ -1,107 +1,117 @@
 # STEAMPUNK CLOCKWORK
 
-### 46 animated assets for Blender
+### A reusable library of mechanical form and motion
 
-**32 clocks · 14 mechanical assemblies · Native animation controls · Asset Browser ready**
+**46 animated Blender assets Â· 32 clocks Â· 14 mechanical assemblies Â· Editable controls**
 
-![A collection of silver mechanical clocks against a black background, from the original Overall render](media/collection-hero.jpg)
+![Rendered clock collection in motion](media/collection-motion.gif)
 
-[View on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets) · [Watch the camera tour](media/collection-tour.mp4) · [Render gallery](docs/render-gallery.md) · [Creative workflows](https://github.com/MuwenTriLi/creative-workflows)
+[Product on Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets) Â· [Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4) Â· [Render gallery](docs/render-gallery.md) Â· [Motion library](docs/motion-library.md)
 
-Mechanical clocks, architectural structures and moving assemblies for Blender scenes. The collection combines detailed metal forms with editable motion, so an asset can become the focus of a shot or part of a larger environment.
+Steampunk Clockwork turns a design language of exposed gears, layered mechanisms and architectural frames into an adaptable Blender asset library. Use a complete assembly as a focal point, tune its motion to a shot, or develop a new composition from its editable components.
 
-## The collection in motion
+I began with my own model collection and a set of design standards. Those standards guided the mechanical variations, the level of detail and the way movement is presented. Codex assisted with inspecting the files and developing structures within that direction.
 
-![Original rendered collection animation with a moving camera](media/collection-motion.gif)
+## Motion is part of the design
 
-An excerpt from the supplied **Overall** render. The [1080p camera tour](media/collection-tour.mp4) shows a wider selection of clocks and architectural mechanisms. [More collection views](docs/render-gallery.md#collection-views) include the portrait composition.
+<table>
+<tr><th width="50%">CLK08 Â· Rotating clockwork</th><th width="50%">SPM14 Â· Suspended mechanism</th></tr>
+<tr><td><img src="media/clock-08-motion.gif" alt="CLK08 moving geometry study" width="100%"></td><td><img src="media/differential-motion.gif" alt="SPM14 moving differential study" width="100%"></td></tr>
+<tr><th>CLK31 Â· Guided travel</th><th>CLK32 Â· Opening and folding</th></tr>
+<tr><td><img src="media/orbit-motion.gif" alt="CLK31 guided movement animation" width="100%"></td><td><img src="media/aperture-motion.gif" alt="CLK32 unfolding observatory animation" width="100%"></td></tr>
+</table>
 
-## Four structures, one visual language
+The neutral Blender views make the moving structure readable: small rotating parts, linked assemblies, travel along a constrained path and unfolding architectural elements. These excerpts preserve the original playback speed. [More motion and viewport recordings](docs/motion-library.md).
+
+## Selected forms
 
 <table>
 <tr>
-<td width="50%"><img src="media/clock-08.png" alt="CLK08 rendered exposed clock movement" width="100%"><br><b>CLK08 · Exposed clock movement</b><br>Layered wheels, shafts and a readable mechanical silhouette.</td>
-<td width="50%"><img src="media/clock-23.png" alt="CLK23 rendered meridian palace and astronomical arcade" width="100%"><br><b>CLK23 · Meridian palace</b><br>A clock face, central gear and architectural arcade in one assembly.</td>
+<td width="50%"><a href="media/clock-08.png"><img src="media/clock-08.png" alt="CLK08 original rendered asset" width="100%"></a><br><b>CLK08 Â· Exposed clock movement</b></td>
+<td width="50%"><a href="media/differential-instrument.png"><img src="media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14 Â· Equinox differential instrument</b></td>
 </tr>
 <tr>
-<td width="50%"><img src="media/iris-gate.png" alt="SPM11 rendered Oculus iris gate" width="100%"><br><b>SPM11 · Oculus iris gate</b><br>Radial leaves, an outer ring and the surrounding drive mechanism.</td>
-<td width="50%"><img src="media/differential-instrument.png" alt="SPM14 rendered Equinox suspended differential instrument" width="100%"><br><b>SPM14 · Equinox</b><br>A suspended instrument with exposed linkages and counterweights.</td>
+<td width="50%"><a href="media/orbit.png"><img src="media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31 Â· Orbit archive exchange</b></td>
+<td width="50%"><a href="media/aperture.png"><img src="media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32 Â· Aperture observatory</b></td>
 </tr>
 </table>
 
-These images are existing renders from the supplied asset thumbnails. Click a render to inspect it at full size in the [gallery](docs/render-gallery.md#individual-assets).
+Four different silhouettes share a vocabulary of metal surfaces, visible transmission parts and intricate secondary details. [Browse 26 selected renders](docs/render-gallery.md), including the original CLK01â€“22 series.
 
-## From rendered form to mechanical motion
+## A control system behind each assembly
 
-<table>
-<tr><th width="50%">Meridian palace · CLK23</th><th width="50%">Oculus iris gate · SPM11</th></tr>
-<tr>
-<td><img src="media/arcade-motion.gif" alt="CLK23 gray-shaded animation study" width="100%"></td>
-<td><img src="media/iris-motion.gif" alt="SPM11 gray-shaded iris animation study" width="100%"></td>
-</tr>
-</table>
+Built-in settings drive motion through native Blender drivers, object hierarchies and constraints. Adjust the root controller; the connected parts follow their existing relationships.
 
-The gray-shaded studies isolate the moving geometry. The rendered views above show the same assemblies with their metal materials. Both studies come from existing animation videos; they preserve the source playback speed.
+**Controller inputs â†’ linked motion â†’ moving components**
 
-## Controls a creator can use
-
-Assets use native Blender drivers, hierarchies and constraints. Controls live on each asset's root `*_ASSET_CTRL` object, keeping common adjustments together while the mechanism remains assembled.
-
-| Example | Control | Creative use |
+| What you want to change | Example controls | What they affect |
 | --- | --- | --- |
-| CLK08 | `Start_Hour`, `Start_Minute`, `Start_Second` | Set the clock's initial displayed time. |
-| CLK08 | `Second_Tick_Blend` | Choose between a smooth seconds sweep and one-second steps. |
-| CLK08 | `Gear_Display_Speed` | Adjust the visible mechanism's speed. |
-| CLK23 | `Master_RPM`, `Phase_Deg` | Change the input speed and starting phase. |
-| SPM11 | `Master_RPM` | Set the iris mechanism's main input speed. |
+| Chain movement | SPM03 Â· `Chain_Drive_Speed` | Chain speed, alongside the assembly's overall speed and phase settings. |
+| Gear rotation | CLK08 Â· `Gear_Display_Speed` | Visible mechanism speed; clock-hand timing has separate controls. |
+| Opening and folding rhythm | CLK32 Â· `Master_RPM`, `Speed_Scale`, `Phase_Deg` | The input speed and phase driving the unfolding mechanism. |
+| Travel along an existing path | CLK31 Â· `Master_RPM`, `Speed_Scale` | The pace of the connected rail mechanism. |
+| Clock behavior | CLK08 Â· `Start_Hour`, `Start_Minute`, `Start_Second`, `Second_Tick_Blend` | Initial time and smooth or stepped seconds. |
+| Gear detail on supported assets | CLK31 / CLK32 Â· `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
 
-Controls vary by asset. [The control walkthrough](docs/controls.md) explains these examples, placement and the distinction between editable inputs and calculated outputs.
+Controls vary by asset. Opening angles and positions may be calculated outputs, so adjustments belong upstream in the controller. [Explore the controls](docs/controls.md).
 
-## Designed to be reused in Blender
+## Components for a new design
 
-1. **Browse:** register the supplied `Asset Library` folder and choose a clock, machine or material.
-2. **Place:** append or instance the complete asset collection, keeping its dependencies together.
-3. **Adjust:** select the root controller and tune the controls available on that asset.
-4. **Animate:** preview its motion, compose the shot and render in Blender.
+The library works at three levels: **complete animated assemblies**, **editable parts and subassemblies**, and **reusable procedural materials**. A clock can anchor a scene; its gears, frames and decorative structures can also inform a new design or visual direction.
+
+<table>
+<tr>
+<td width="33%"><a href="media/clk04.png"><img src="media/clk04.png" alt="CLK04 original rendered asset" width="100%"></a><br><b>Layered gear detail</b></td>
+<td width="33%"><a href="media/clk06.png"><img src="media/clk06.png" alt="CLK06 original rendered asset" width="100%"></a><br><b>Frame and linkage detail</b></td>
+<td width="33%"><a href="media/clk12.png"><img src="media/clk12.png" alt="CLK12 original rendered asset" width="100%"></a><br><b>Dense clock-face detail</b></td>
+</tr>
+</table>
+
+For a working animated module, retain its controller, hierarchy and driver dependencies. For a new visual composition, duplicate the asset, make its collection instance real and adapt selected geometry or materials. A separated component may need its motion relationships rebuilt. [Component reuse workflow](docs/component-reuse.md).
+
+## From design rules to a usable product
+
+| Stage | Design responsibility | Result |
+| --- | --- | --- |
+| Establish the language | Original models, design direction and evaluation standards | A consistent starting point for new structures. |
+| Develop the mechanism | Review variations and how their parts move together | Detailed forms with legible motion. |
+| Expose the controls | Organize adjustment points for each assembly | Reusable assets with documented parameters. |
+| Package the collection | Categories, previews, materials and instructions | A library another Blender user can browse, place and adapt. |
+
+[Design and development process](docs/process.md) Â· [Creative workflows portfolio](https://github.com/MuwenTriLi/creative-workflows)
+
+## Browse Â· place Â· adjust Â· animate
+
+Register the product's `Asset Library` folder in Blender, choose a complete asset collection, place it in your scene, then select its root controller to adjust the available parameters.
 
 <details>
-<summary><b>See the Asset Browser and in-Blender workflow</b></summary>
+<summary><b>See the library inside Blender</b></summary>
 
-![Selected clocks organized in Blender's Asset Browser](media/asset-browser.png)
+![Blender Asset Browser](media/asset-browser.png)
 
-![Existing in-Blender workflow recording](media/blender-workflow.gif)
+[![Blender library tour preview](media/blender-library-tour-poster.jpg)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/blender-library-tour.mp4)
 
-Custom previews and categories make the collection browsable. The screen recording shows interaction inside Blender, alongside the finished renders and motion studies above.
+[Download the 15-second library tour](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/blender-library-tour.mp4) Â· [Collection animation in the viewport](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/viewport-collection.mp4)
 
 </details>
 
-## Design direction and AI-assisted development
-
-I began with my existing model collection, established the design direction and set the standards for evaluating new structures. Codex inspected details in those files and assisted in developing mechanical variations within that direction.
-
-My contribution was the source material, visual direction and design judgment guiding the work. The resulting product brings the structures together as editable assets with controls, previews, organized collections and documentation.
-
-[Read the development process](docs/process.md) for the source-model → design-direction → assisted-development → product-delivery workflow.
-
-## What the product includes
-
-| Component | Delivery |
+| Included | Delivery |
 | --- | --- |
-| Animated collections | 32 clock designs and 14 mechanical assemblies |
+| Animated assets | 32 clocks and 14 mechanical assemblies |
 | Asset Browser | Categorized library with 46 custom previews |
 | Materials | 9 marked reusable procedural material assets |
 | Presentation | 5 supplied showcase scenes |
-| Documentation | Setup guide, controller reference and recorded release checks |
-| Native files | Editable Blender files; no add-on required to use the model library |
+| Documentation | Setup, controller reference and recorded release checks |
+| Format | Editable native Blender files; no add-on required to use the model library |
 
-The commercial package is available on [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets). This repository contains the case study and selected presentation media.
+Get the commercial asset package on [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets). This repository presents the project and selected media.
 
 <details>
-<summary><b>Compatibility, verification and media provenance</b></summary>
+<summary><b>Compatibility and presentation notes</b></summary>
 
-The supplied package records testing in Blender 5.2.0 LTS on Windows with Cycles. These are detailed visualization assets; viewport performance depends on scene complexity. Motion cycles and run/reset behavior vary by asset.
+The package records testing in Blender 5.2.0 LTS on Windows with Cycles. These are detailed visualization assets; viewport performance depends on the scene. Run/reset behavior and cycles vary between assets. The existing release audit was not rerun for this showcase.
 
-The existing release audit was not rerun while preparing this case. See [validation scope](docs/validation.md), [media sources and transformations](docs/media.md) and the [render gallery](docs/render-gallery.md).
+All visuals come from the supplied renders and recordings. GIFs are excerpts rather than guaranteed seamless cycles. See [verification scope](docs/validation.md) and [media provenance](docs/media.md).
 
 The commercial Blender files are distributed through the product page. This showcase does not grant an open-source license to those assets.
 

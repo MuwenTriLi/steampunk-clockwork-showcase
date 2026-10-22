@@ -1,42 +1,39 @@
 # Render gallery
 
-[Back to the case study](../README.md) · [Watch the silent 1080p camera tour](../media/collection-tour.mp4)
+[Case study](../README.md) · [Clocks 01–12](gallery-clocks-01-12.md) · [Clocks 13–22](gallery-clocks-13-22.md) · [Motion library](motion-library.md)
+
+26 selected original asset renders, with the author's preferred clock series presented first. Images open at their supplied resolution.
 
 ## Collection views
 
-### Clock collection
+![Original rendered clock collection](../media/collection-hero.jpg)
 
-![Clock collection, frame at 4.5 seconds from Overall](../media/collection-hero.jpg)
+[Download camera tour (MP4)](https://github.com/MuwenTriLi/steampunk-clockwork-showcase/raw/refs/heads/main/media/collection-tour.mp4)
 
-Frame from `Overall.mp4`, selected at 4.5 seconds. The original camera composition and render appearance are preserved.
+![Wider view of clocks and mechanical structures](../media/collection-overview.jpg)
 
-### Clocks and architectural mechanisms
+## Featured architectural and mechanical forms
 
-![Wider collection of clocks and architectural mechanisms](../media/collection-overview.jpg)
+<table>
+<tr>
+<td width="50%"><a href="../media/orbit.png"><img src="../media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31 · Orbit</b></td>
+<td width="50%"><a href="../media/aperture.png"><img src="../media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32 · Aperture</b></td>
+</tr>
+<tr>
+<td width="50%"><a href="../media/differential-instrument.png"><img src="../media/differential-instrument.png" alt="SPM14 original rendered asset" width="100%"></a><br><b>SPM14 · Equinox</b></td>
+<td width="50%"><a href="../media/chain-drive.png"><img src="../media/chain-drive.png" alt="SPM03 original rendered asset" width="100%"></a><br><b>SPM03 · Chain mechanism</b></td>
+</tr>
+</table>
 
-Frame from `Overall_move along.mp4`, selected at 6 seconds. [Open the moving camera tour](../media/collection-tour.mp4).
+## Original clock series
 
-### Portrait collection study
+The detailed gallery is divided into two pages so the individual renders remain readable:
 
-<p align="center"><img src="../media/collection-portrait.jpg" alt="Portrait-format render of the mechanical collection" width="540"></p>
+- [CLK01–12 · Original clock forms](gallery-clocks-01-12.md)
+- [CLK13–22 · Dials, frames and architectural clocks](gallery-clocks-13-22.md)
 
-Frame from `2_render.mp4`, selected at 1 second. This retains the portrait composition supplied with the product presentation.
+## Portrait presentation
 
-## Individual assets
+<p align="center"><img src="../media/collection-portrait.jpg" alt="Portrait collection render" width="540"></p>
 
-| Asset | Full-size render | What to inspect |
-| --- | --- | --- |
-| CLK08 | [Exposed clock movement](../media/clock-08.png) | Gear layers, frame, shafts and clock hands. |
-| CLK23 | [Meridian palace](../media/clock-23.png) | Architectural arcade, large wheel and upper clock face. |
-| SPM11 | [Oculus iris gate](../media/iris-gate.png) | Radial leaves, ring, bearings and drive assembly. |
-| SPM14 | [Equinox](../media/differential-instrument.png) | Suspended linkage, frame and counterweights. |
-
-These four images are unchanged copies of the supplied thumbnail renders, at their original resolution.
-
-## Motion studies
-
-[Clock collection preview](../media/collection-motion.gif) · [CLK23 mechanism](../media/arcade-motion.gif) · [SPM11 iris](../media/iris-motion.gif)
-
-The GIFs are compressed excerpts of existing videos. They repeat for browsing and preserve source playback speed; repetition does not imply that the cut points form seamless mechanical cycles.
-
-See [media provenance](media.md) for the exact sources.
+All individual renders are unchanged copies of the supplied thumbnails. Collection views are frames extracted from the author's videos. See [media provenance](media.md).

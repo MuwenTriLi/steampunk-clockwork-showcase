@@ -1,19 +1,37 @@
-# From source models to a reusable product
+# A design system expressed through mechanical assets
 
-## Starting point
+[Back to the case study](../README.md)
 
-The project began with Muwen Li's existing model collection and file data. Muwen supplied design direction and the criteria for judging the new work. Codex read the source files and assisted with developing mechanical structures under those constraints.
+## Start with the designer's rules
 
-## Design direction and iteration
+I started from an existing model collection and defined the direction and standards for the new work. The aim was to create a coherent family: detailed mechanical structures whose form and movement could be read together.
 
-The essential collaboration was to translate a designer's direction into variations that could be reviewed against a shared standard. AI-assisted inspection and implementation supported that process; source selection and design judgment remained part of Muwen's role.
+The reference collection gave the work a concrete basis. My role was to set that direction, judge the variations and decide which structures belonged in the library. Codex inspected the source files and assisted with developing variations under those constraints.
 
-The next addition to this case will be one concrete original → intermediate → final example. It should identify a specific design decision and the revision that followed. That evidence has not yet been selected, so this draft does not invent a prompt history, iteration count, or quantified time saving.
+## Connect form, detail and movement
 
-## Product delivery
+The resulting assets use exposed gears, layered frames and secondary mechanisms in different configurations. Some remain compact clock movements; others expand into architectural assemblies with guided travel or unfolding parts. The fine rotations are part of the presentation, alongside the larger silhouette and motion.
 
-The supplied package contains an editable scene, an Asset Browser library, custom previews, categorized assets, root controls, user documentation and recorded release checks. These turn individual experiments into a collection that another Blender user can browse, place and adjust.
+<table>
+<tr>
+<td width="33%"><a href="../media/clock-08.png"><img src="../media/clock-08.png" alt="CLK08 original rendered asset" width="100%"></a><br><b>CLK08</b></td>
+<td width="33%"><a href="../media/orbit.png"><img src="../media/orbit.png" alt="CLK31 original rendered asset" width="100%"></a><br><b>CLK31</b></td>
+<td width="33%"><a href="../media/aperture.png"><img src="../media/aperture.png" alt="CLK32 original rendered asset" width="100%"></a><br><b>CLK32</b></td>
+</tr>
+</table>
 
-## A useful demonstration
+## Make the result adjustable
 
-A short case walkthrough can show three things: the finished mechanical animation, the exposed controls, and placement through the Asset Browser. The selected media already supports the product and workflow views; a specific before/after development example will make the authorship story more concrete.
+Reusable assets need meaningful adjustment points. The supplied controllers expose functions such as gear speed, chain speed, clock timing, phase and the input driving a larger mechanism. Native drivers and constraints carry those inputs through connected parts.
+
+The control reference distinguishes editable settings from calculated outputs. That distinction helps a user adapt the timing while preserving the existing mechanism.
+
+## Package the work for another creator
+
+The product combines 46 animated asset collections, categorized Asset Browser entries, custom previews, procedural materials, presentation scenes and documentation. Together these provide a browse → place → adjust → animate workflow.
+
+Components can also become source material for a new design. The [reuse guide](component-reuse.md) describes how to preserve animation dependencies when adapting a module, or work with selected geometry and materials.
+
+## Evidence in this showcase
+
+The [render gallery](render-gallery.md) shows the supplied visual work, the [motion library](motion-library.md) shows existing animation and Blender recordings, and the [control guide](controls.md) summarizes documented parameters. The showcase makes no claim about measured time savings or a newly executed technical audit. See [validation scope](validation.md).

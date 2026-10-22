@@ -1,3 +1,7 @@
 # Presentation media
 
-Original supplied renders, frame extracts and compressed animation previews used by the case study. Browse the [render gallery](../docs/render-gallery.md) or see [sources and transformations](../docs/media.md).
+Original rendered thumbnails, compressed motion previews and viewing copies of the author's Blender recordings.
+
+- [Render gallery](../docs/render-gallery.md)
+- [Motion library](../docs/motion-library.md)
+- [Sources and preparation](../docs/media.md)
