@@ -61,11 +61,11 @@ The visual selection uses existing renders and recordings supplied by Muwen Li. 
 
 Only presentation copies were created. Original models, images, videos and folder organization were left unchanged. Individual rendered thumbnails are byte-for-byte copies. The individual GIFs preserve the full source composition, with reduced resolution, frame rate and color precision for browsing. MP4 viewing copies retain their source composition and playback speed and omit audio.
 
-CLK23 and SPM11 were withdrawn from the current visual selection at the author's request. No retouching, relighting or new AI-generated render was used. These media document existing work and do not constitute a new technical audit of the Blender package.
+The complete clock selection includes CLK01-32. SPM11 remains outside the current visual selection. No retouching, relighting or new AI-generated render was used. These media document existing work and do not constitute a new technical audit of the Blender package.
 
 ## Compact motion atlas and 4K cover
 
-The homepage uses 20 individual animation cards at 320 x 400 pixels, displayed four per row. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
+The homepage includes 26 individual clock animation cards at 320 x 400 pixels, displayed four per row, plus six original still renders to complete the 32-clock collection. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
 
 The separate 480-pixel-wide motion files remain available to the detailed control walkthrough. The 4K cover is an original video frame, not an enlarged GIF.
 
@@ -92,3 +92,25 @@ The separate 480-pixel-wide motion files remain available to the detailed contro
 | `media/motion-clk20.gif` | `Video/Individual render/CLK20.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
 | `media/motion-clk22.gif` | `Video/Individual render/CLK22.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
 | `media/collection-hero-4k.jpg` | `Video/Overall.mp4` | Original 3840x2160 frame at 4.5 s; high-quality JPEG; no upscaling |
+
+## Complete clock collection
+
+The presentation order groups eight rotating views before 18 fixed-view motion clips and six still renders. The visual categories were checked against the supplied recordings. Display numbers are distinct from original asset IDs; see the [clock index](clock-index.md). Source files were read only.
+
+| Repository file | Source file | Preparation |
+| --- | --- | --- |
+| `media/motion-clk23.gif` | `Video/Individual render/CLK23.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk24.gif` | `Video/Individual render/CLK24.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk25.gif` | `Video/Individual render/CLK25.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk26.gif` | `Video/Individual render/CLK26.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk27.gif` | `Video/Individual render/CLK27.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk28.gif` | `Video/Individual render/CLK28.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/motion-clk29.gif` | `Video/Individual render/CLK29.mp4` | First 5 s; 320x400 card; 10 fps; 128 colors; conservative crop from all 50 sampled frames; source speed; original source unchanged |
+| `media/clk23.png` | `Thumbnails/CLK023_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk24.png` | `Thumbnails/CLK24_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk25.png` | `Thumbnails/CLK25_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk26.png` | `Thumbnails/CLK26_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk27.png` | `Thumbnails/CLK27_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk28.png` | `Thumbnails/CLK28_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk29.png` | `Thumbnails/CLK29_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+| `media/clk30.png` | `Thumbnails/CLK30_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |

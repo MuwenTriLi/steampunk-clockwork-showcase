@@ -1,8 +1,8 @@
 # Render gallery
 
-[Case study](../README.md) / [Clocks 01-12](gallery-clocks-01-12.md) / [Clocks 13-22](gallery-clocks-13-22.md) / [Motion library](motion-library.md)
+[Case study](../README.md) / [Clocks 01-12](gallery-clocks-01-12.md) / [Clocks 13-22](gallery-clocks-13-22.md) / [Clocks 23-32](gallery-clocks-23-32.md) / [Motion library](motion-library.md)
 
-26 selected original asset renders, with the author's preferred clock series presented first. Images open at their supplied resolution.
+All 32 original clock renders, plus two selected mechanical assemblies. Clock pages follow the original asset numbering; the motion table uses separate presentation numbers. Images open at their supplied resolution.
 
 ## Collection views
 
@@ -25,10 +25,12 @@
 
 ## Original clock series
 
-The detailed gallery is divided into two pages so the individual renders remain readable:
+The detailed gallery is divided into three pages so the individual renders remain readable:
 
 - [CLK01-12 / Original clock forms](gallery-clocks-01-12.md)
 - [CLK13-22 / Dials, frames and architectural clocks](gallery-clocks-13-22.md)
+- [CLK23-32 / Architectural mechanisms](gallery-clocks-23-32.md)
+- [Presentation numbers and source asset IDs](clock-index.md)
 
 ## Portrait presentation
 
