@@ -61,11 +61,11 @@ The visual selection uses existing renders and recordings supplied by Muwen Li. 
 
 Only presentation copies were created. Original models, images, videos and folder organization were left unchanged. Individual rendered thumbnails are byte-for-byte copies. The individual GIFs preserve the full source composition, with reduced resolution, frame rate and color precision for browsing. MP4 viewing copies retain their source composition and playback speed and omit audio.
 
-The complete clock selection includes CLK01-32. SPM11 remains outside the current visual selection. No retouching, relighting or new AI-generated render was used. These media document existing work and do not constitute a new technical audit of the Blender package.
+The separate render gallery includes CLK01-32; the motion grid contains 24 selected clocks. SPM11 remains outside the current visual selection. No retouching, relighting or new AI-generated render was used. These media document existing work and do not constitute a new technical audit of the Blender package.
 
 ## Compact motion atlas and 4K cover
 
-The homepage includes 26 individual clock animation cards at 320 x 400 pixels, displayed four per row, plus six original still renders to complete the 32-clock collection. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
+The homepage motion grid includes 24 individual clock animation cards at 320 x 400 pixels, displayed four per row across six complete rows. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
 
 The separate 480-pixel-wide motion files remain available to the detailed control walkthrough. The 4K cover is an original video frame, not an enlarged GIF.
 
@@ -95,7 +95,7 @@ The separate 480-pixel-wide motion files remain available to the detailed contro
 
 ## Complete clock collection
 
-The presentation order groups eight rotating views before 18 fixed-view motion clips and six still renders. The visual categories were checked against the supplied recordings. Display numbers are distinct from original asset IDs; see the [clock index](clock-index.md). Source files were read only.
+The presentation order groups eight rotating views before 16 fixed-view motion clips. The motion grid omits the six still-render cards and the CLK23 and CLK26 clips. The visual categories were checked against the supplied recordings. Display numbers are distinct from original asset IDs; see the [clock index](clock-index.md). Source files were read only.
 
 | Repository file | Source file | Preparation |
 | --- | --- | --- |
