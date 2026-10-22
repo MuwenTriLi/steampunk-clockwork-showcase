@@ -1,8 +1,12 @@
 # STEAMPUNK CLOCKWORK
 
-### Reusable mechanical assets, motion logic and a workflow Skill
+### From a designer's production rules to an adaptable asset library
 
 **46 animated Blender assets / 32 clocks / 14 mechanical assemblies / Editable controls**
+
+**[Read the production-to-product case](docs/production-case.md)** — the problem, design decisions, role of AI, creator controls and delivery checks.
+
+I built from my own model collection and design standards, using Codex to assist development. The result connects detailed visual craft with an editable product workflow. The packaged instruction Skill is a later extension whose new end-to-end execution remains to be verified.
 
 [![Clockwork collection - original 4K render](media/collection-hero-4k.jpg)](media/collection-hero-4k.jpg)
 
