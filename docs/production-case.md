@@ -1,0 +1,69 @@
+# Clockwork: from production practice to a reusable product
+
+[← Collection and motion gallery](../README.md) · [Controls](controls.md) · [Workflow Skill](workflow-skill.md) · [Superhive product](https://superhivemarket.com/products/steampunk-clockwork-animated-assets)
+
+**A designer's original model collection and visual standards became 46 animated Blender assets, editable motion controls and a reusable adaptation procedure.**
+
+This is my strongest existing example of turning hands-on visual work into a product another creator can use. My contribution was the original models, design direction and evaluation standards, selection of mechanical variations, and the organization of the library. Codex assisted with source inspection and development under that direction.
+
+## 1. The production problem
+
+A detailed mechanism is only part of a usable asset. A creator also needs to place it in a new composition, change the rhythm, preserve the connected motion, and find the relevant controls. Editing individual moving parts makes those relationships harder to maintain. Developing related forms also requires a consistent visual language across silhouettes, gear layers, frames and detail density.
+
+This problem framing comes from my production practice and the documented artifact structure. It is not presented as a completed customer-interview study or a measured time-saving result.
+
+## 2. The product hypothesis
+
+If visual rules, motion dependencies and meaningful controller inputs travel with each assembly, a creator should be able to adapt its presentation without rebuilding every moving part. The resulting product needs both detailed craft and a clear browse → place → adjust → animate workflow.
+
+The shipped library and documented controls support this direction. Independent task-completion testing of the workflow is still to do.
+
+## 3. Production decisions became product controls
+
+| Production requirement | Product decision | Evidence to inspect |
+| --- | --- | --- |
+| Related forms should feel like one collection | Develop variations from my model collection and design standards | [Design process](process.md) and [render gallery](render-gallery.md) |
+| A scene needs a different rhythm | Expose upstream speed and phase controls; preserve linked motion | [CLK08 gear timing](controls.md#clock-and-gear-timing--clk08), [CLK31 travel](controls.md#travel-rhythm--clk31-orbit) |
+| Opening should remain mechanically connected | Drive the opening from the input rather than directly overriding the result | [CLK32 controls](controls.md#opening-and-folding--clk32-aperture) |
+| A creator wants to reuse only part of a design | Distinguish complete assemblies, animated subassemblies and geometry reuse | [Component reuse](component-reuse.md) |
+| Someone else must find and use the assets | Package categories, previews, materials and instructions | [Asset Browser and delivery](../README.md#browse--place--adjust--animate) |
+
+<table><tr>
+<td width="50%"><img src="../media/motion-clk08.gif" alt="Existing CLK08 motion study" width="100%"><br><b>Gear and clock timing are separate decisions</b></td>
+<td width="50%"><img src="../media/motion-clk32.gif" alt="Existing CLK32 opening motion study" width="100%"><br><b>Opening follows a connected mechanism</b></td>
+</tr></table>
+
+These are existing motion excerpts. They show the assemblies, not a newly recorded agent adjustment or a before/after experiment.
+
+## 4. One concrete control decision: CLK32
+
+The documented controls expose `Master_RPM`, `Speed_Scale` and `Phase_Deg`. `Input_Angle` is a calculated output. For a different opening rhythm, the useful interaction is to change the upstream input and preview the linked result. Directly editing the calculated angle would hide the dependency the product is supposed to preserve.
+
+This is the product insight: a creator should control the behavior they care about while the system maintains the relationships underneath. The same distinction helps an agent choose a valid edit. It does not mean every combination is collision-free or that the asset is a physically validated machine.
+
+## 5. What runs automatically, and where I retain judgment
+
+| Layer | Current evidence | Creator responsibility |
+| --- | --- | --- |
+| Development | Codex assisted inspection and variations under my direction | Set the visual standard, review structure and movement, select the result |
+| Asset operation | Native drivers, constraints and hierarchies propagate selected controller values | Choose the module, tune rhythm, inspect the whole shot |
+| Agent adaptation | An instruction Skill is packaged; a new end-to-end run is pending | Specify the new composition and review changes that alter silhouette or dependencies |
+| Delivery | A commercial library, previews and instructions exist | Approve the particular output and its intended use |
+
+For future agent execution, routine inspection and approved parameter edits can proceed in a working copy. Missing targets, ambiguous controls or a proposed dependency-changing edit should return a specific review item. The creator should see the affected component, before/after settings and a preview. These are workflow requirements, not a new agent UI already shipping with the library.
+
+## 6. Delivery criteria and what has actually been checked
+
+For a newly adapted assembly, I would require a preserved source, a readable dependency map, valid controller targets, inspection across the full intended frame range and risky transitions, and a decoded preview of the exact working revision. The creator checks silhouette, material consistency, movement readability, intersections and discontinuities. A result with unresolved dependencies remains **needs review**.
+
+The package's historical audit records checks of 46 assets and 2,640 drivers over frames 1–1,441. Selected clearance checks are limited to seven pairs and 25 sampled frames. That audit predates some later file modifications, and was not rerun for this portfolio. It cannot validate arbitrary settings or a new adaptation. [Full validation scope](validation.md).
+
+## 7. Outcome, learning and next decision
+
+**Existing outcome:** a commercial collection of 32 clocks and 14 mechanical assemblies, categorized Asset Browser previews, reusable materials, presentation scenes and controller documentation. The public repository presents selected evidence; the commercial source package is supplied separately.
+
+**Design takeaway:** component reuse depends on explicit motion dependencies and meaningful controls. The most useful AI assistance works inside a designer's specification and returns changes that can be inspected.
+
+**Next validation:** record one complete adaptation from brief through controller changes to checked output, including a real adjustment or failure. Capture the settings before and after, active work time and any manual corrections. Ask a creator unfamiliar with the library to repeat the task. Expand the agent workflow only when it preserves the mechanism and the creator can explain and correct its changes; otherwise iterate on inspection and recovery. This is the next test, not a completed study.
+
+[Shared control model and engineering handoff](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/creative-control.md)
