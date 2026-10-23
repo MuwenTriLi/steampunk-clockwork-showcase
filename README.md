@@ -36,7 +36,7 @@ The [`clockwork-assembly` Skill](skills/clockwork-assembly/SKILL.md) packages th
 
 The same collection presented with two visual priorities: **linework exposes construction; rendered surfaces show the finished design language**.
 
-<p align="center"><a href="media/structure-material-comparison.jpg"><img src="media/structure-material-comparison.jpg" width="560" alt="Original linework pass on the left and material render pass on the right"></a></p>
+<p align="center"><a href="media/structure-material-comparison.jpg"><img src="media/structure-material-comparison.jpg" width="100%" alt="Original linework pass on the left and material render pass on the right"></a></p>
 
 [Open the paired comparison](media/structure-material-comparison.jpg) · [Full-resolution linework](media/structure-pass.jpg) · [Full-resolution render](media/material-pass.jpg)
 
@@ -45,6 +45,17 @@ Frames from the two original collection videos. Their motion phases differ; this
 ## The collection in motion
 
 <p align="center"><a href="media/collection-motion.gif"><img src="media/collection-motion.gif" alt="Rendered clock collection in motion" width="800"></a></p>
+
+## Mechanisms in focus
+
+Two larger studies expose the movement behind the overall silhouette. Click a preview to inspect its five-second excerpt.
+
+<table><tr>
+<td width="50%" align="center" valign="top"><a href="media/differential-motion.gif"><img src="media/differential-motion.gif" width="420" alt="SPM14 suspended mechanism in motion"></a><br><b>SPM14 / suspended mechanism</b><br><sub>Read the suspended parts, linkages and counterweight together.</sub></td>
+<td width="50%" align="center" valign="top"><a href="media/orbit-motion.gif"><img src="media/orbit-motion.gif" width="420" alt="CLK31 guided mechanical movement"></a><br><b>CLK31 / guided movement</b><br><sub>Read the relationship between the dial, structure and rail path.</sub></td>
+</tr></table>
+
+[More videos and Blender recordings →](docs/showcase-films.md) · [All 24 motion studies →](docs/motion-library.md#24-clock-motion-studies)
 
 ## Motion is part of the design
 
@@ -136,10 +147,10 @@ Controls vary by asset. Opening angles and positions may be calculated outputs, 
 
 <table>
 <tr><th width="50%">Inspect the opening mechanism</th><th width="50%">Browse and place an asset</th></tr>
-<tr><td><a href="media/opening-in-blender.mp4"><img src="media/opening-in-blender.gif" width="100%" alt="Original Blender recording of the opening assembly"></a></td><td><a href="media/library-placement.mp4"><img src="media/library-placement.gif" width="100%" alt="Original Blender asset library placement recording"></a></td></tr>
+<tr><td><a href="https://muwentrili.github.io/creative-workflows/films/?project=clockwork&amp;film=opening-in-blender"><img src="media/opening-in-blender.gif" width="100%" alt="Original Blender recording of the opening assembly"></a></td><td><a href="https://muwentrili.github.io/creative-workflows/films/?project=clockwork&amp;film=library-placement"><img src="media/library-placement.gif" width="100%" alt="Original Blender asset library placement recording"></a></td></tr>
 </table>
 
-[Opening mechanism · MP4](media/opening-in-blender.mp4) · [Asset placement · MP4](media/library-placement.mp4)
+[Opening mechanism · MP4](https://muwentrili.github.io/creative-workflows/films/?project=clockwork&film=opening-in-blender) · [Asset placement · MP4](https://muwentrili.github.io/creative-workflows/films/?project=clockwork&film=library-placement) · [Seven videos and recordings](docs/showcase-films.md)
 
 These original viewport recordings show the working scene and library. A narrated control-change walkthrough is the next evidence to add; these excerpts do not by themselves demonstrate every parameter.
 

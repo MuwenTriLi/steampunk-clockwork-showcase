@@ -1,6 +1,6 @@
 # Motion library
 
-[Case study](../README.md) / [Rendered assets](render-gallery.md) / [Controls](controls.md)
+[Case study](../README.md) / [Rendered assets](render-gallery.md) / [Controls](controls.md) / [Seven videos and recordings](showcase-films.md)
 
 ## Finished collection
 
@@ -71,7 +71,7 @@ Clock 01-24 are presentation numbers for this browsing order. Original asset IDs
 
 ## Original viewport collection
 
-<p align="center"><a href="../media/viewport-collection.mp4"><img src="../media/collection-in-viewport.gif" width="520" alt="Collection of animated assemblies in the Blender viewport"></a></p>
+<p align="center"><a href="https://muwentrili.github.io/creative-workflows/films/?project=clockwork&amp;film=viewport-collection"><img src="../media/collection-in-viewport.gif" width="800" alt="Collection of animated assemblies in the Blender viewport"></a></p>
 
 Excerpt from `Individual asset animation_collection.mp4`, showing several mechanisms together.
 

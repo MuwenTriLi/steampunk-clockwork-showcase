@@ -129,3 +129,7 @@ All source files were opened read-only; derivatives are separate presentation fi
 | `collection-in-viewport.gif` | `Individual asset animation_collection.mp4` | 4–9 s; 520 px wide / 8 fps. |
 
 The README now shows two separate rows of four motion previews. The full 24-study catalog remains in the motion library, separated by viewing task. Additional rendered forms are expandable.
+
+## Enlarged examples
+
+The paired structure/material image is now shown at the available content width. The README also exposes the existing 480 px SPM14 and CLK31 motion previews at 420 px. Seven already published MP4s are collected in [the film index](showcase-films.md); no additional source material or commercial package was uploaded for this layout revision.
