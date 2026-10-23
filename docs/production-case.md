@@ -6,6 +6,14 @@
 
 This is my strongest existing example of turning hands-on visual work into a product another creator can use. My contribution was the original models, design direction and evaluation standards, selection of mechanical variations, and the organization of the library. Codex assisted with source inspection and development under that direction.
 
+## The smallest useful task
+
+**Task:** adapt one CLK32 assembly to a short shot with a slower, clearly readable opening, while preserving its design and linked motion. Keep the source intact and work on a copy. This is the next demonstration to record, not a new result claimed by the existing GIF.
+
+**Local correction:** record the original controller values, change the relevant upstream speed or phase control, and preview the affected opening. Keep camera, materials and unrelated assemblies fixed. Restore those values if the result fails; a dependency-changing recomposition is a separate decision, not an automatic repair.
+
+**Decision now:** the asset product exists; iterate the adaptation workflow. A useful proof is one before/after settings record, one correction and the decoded output of that exact revision. Expand the Skill only after an unfamiliar creator can understand and correct the result. Stop or narrow a proposed edit if preserving the mechanism requires rebuilding hidden dependencies.
+
 ## 1. The production problem
 
 A detailed mechanism is only part of a usable asset. A creator also needs to place it in a new composition, change the rhythm, preserve the connected motion, and find the relevant controls. Editing individual moving parts makes those relationships harder to maintain. Developing related forms also requires a consistent visual language across silhouettes, gear layers, frames and detail density.

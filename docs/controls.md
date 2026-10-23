@@ -1,16 +1,16 @@
 # Controls and linked motion
 
-[Case study](../README.md)  /  [Component reuse](component-reuse.md)  /  [Motion examples](motion-library.md)
+[Case study](../README.md) / [Component reuse](component-reuse.md) / [Motion examples](motion-library.md)
 
 The library connects editable inputs to moving geometry through native Blender drivers, hierarchies and constraints. Each root `*_ASSET_CTRL` groups the controls intended for that asset. The examples below are based on the supplied controller reference, not a new interactive test.
 
-## Chain speed  /  SPM03
+## Chain speed / SPM03
 
 ![SPM03 chain assembly](../media/chain-drive.png)
 
 `Chain_Drive_Speed` is the chain-speed multiplier (recorded default 1.0). `Speed_Scale` controls the broader mechanism and `Time_Offset_Frames` offsets its phase. `Added_Mechanism_Speed` addresses the additional display mechanisms. This separates the pace of a visible chain from the other available movement controls.
 
-## Clock and gear timing  /  CLK08
+## Clock and gear timing / CLK08
 
 ![CLK08 rotation study](../media/clock-08-motion.gif)
 
@@ -25,13 +25,13 @@ The library connects editable inputs to moving geometry through native Blender d
 
 `Addon_Movement_Speed` is an existing property label; using the model library does not require installing an add-on.
 
-## Travel rhythm  /  CLK31 Orbit
+## Travel rhythm / CLK31 Orbit
 
 ![CLK31 guided travel study](../media/orbit-motion.gif)
 
 The captive-rail assembly exposes `Master_RPM` (default 3.0), `Speed_Scale`, `Time_Scale` and `Phase_Deg`. These settings adjust the input and timing of the connected mechanism. The existing track defines the motion path: the speed controls do not imply a universal path-drawing interface.
 
-## Opening and folding  /  CLK32 Aperture
+## Opening and folding / CLK32 Aperture
 
 ![CLK32 unfolding study](../media/aperture-motion.gif)
 
