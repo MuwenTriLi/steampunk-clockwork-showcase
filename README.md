@@ -32,58 +32,69 @@ The project combines **designed components**, **linked motion logic** and **an a
 
 The [`clockwork-assembly` Skill](skills/clockwork-assembly/SKILL.md) packages the inspection, adaptation and checking procedure as reusable agent instructions. It was distilled for this showcase from the existing project workflow; a new end-to-end Skill run is still to be verified. [Explore the workflow, inputs and outputs](docs/workflow-skill.md).
 
+## Structure → material
+
+The same collection presented with two visual priorities: **linework exposes construction; rendered surfaces show the finished design language**.
+
+<p align="center"><a href="media/structure-material-comparison.jpg"><img src="media/structure-material-comparison.jpg" width="560" alt="Original linework pass on the left and material render pass on the right"></a></p>
+
+[Open the paired comparison](media/structure-material-comparison.jpg) · [Full-resolution linework](media/structure-pass.jpg) · [Full-resolution render](media/material-pass.jpg)
+
+Frames from the two original collection videos. Their motion phases differ; this is a presentation comparison, not a controlled user study.
+
 ## The collection in motion
 
 <p align="center"><a href="media/collection-motion.gif"><img src="media/collection-motion.gif" alt="Rendered clock collection in motion" width="800"></a></p>
 
 ## Motion is part of the design
 
-24 motion studies in one four-column collection: eight rotating views first, followed by 16 fixed-view mechanisms. Click a card to inspect it.
+Two ways to read a mechanism: rotate the whole form to understand its construction, then hold the view still to inspect how its parts move.
+
+### 01 / Rotating views
 
 <table>
-<tr><th colspan="4" align="left">01 / Rotating views</th></tr>
 <tr>
 <td width="25%" align="center"><a href="media/motion-clk02.gif"><img src="media/motion-clk02.gif" alt="Clock 01 - CLK02 - Turntable" width="100%"></a><br><b>Clock 01</b><br><sub>Turntable / Layered dial</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk03.gif"><img src="media/motion-clk03.gif" alt="Clock 02 - CLK03 - Turntable" width="100%"></a><br><b>Clock 02</b><br><sub>Turntable / Open frame</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk04.gif"><img src="media/motion-clk04.gif" alt="Clock 03 - CLK04 - Turntable" width="100%"></a><br><b>Clock 03</b><br><sub>Turntable / Stacked gears</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk05.gif"><img src="media/motion-clk05.gif" alt="Clock 04 - CLK05 - Turntable" width="100%"></a><br><b>Clock 04</b><br><sub>Turntable / Suspended pendulum</sub></td>
-</tr>
-<tr>
-<td width="25%" align="center"><a href="media/motion-clk06.gif"><img src="media/motion-clk06.gif" alt="Clock 05 - CLK06 - Turntable" width="100%"></a><br><b>Clock 05</b><br><sub>Turntable / Linked frame</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk07.gif"><img src="media/motion-clk07.gif" alt="Clock 06 - CLK07 - Turntable" width="100%"></a><br><b>Clock 06</b><br><sub>Turntable / Vertical gears</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk08.gif"><img src="media/motion-clk08.gif" alt="Clock 07 - CLK08 - Turntable" width="100%"></a><br><b>Clock 07</b><br><sub>Turntable / Exposed movement</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk10.gif"><img src="media/motion-clk10.gif" alt="Clock 08 - CLK10 - Turntable" width="100%"></a><br><b>Clock 08</b><br><sub>Turntable / Skeleton frame</sub></td>
 </tr>
-<tr><th colspan="4" align="left">02 / Fixed views - moving mechanisms</th></tr>
+</table>
+
+The silhouette stays readable as gears, shafts and supporting frames come into view.
+
+<br>
+
+### 02 / Fixed views · moving mechanisms
+
+<table>
 <tr>
-<td width="25%" align="center"><a href="media/motion-clk09.gif"><img src="media/motion-clk09.gif" alt="Clock 09 - CLK09 - Motion" width="100%"></a><br><b>Clock 09</b><br><sub>Motion / Open dial</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk11.gif"><img src="media/motion-clk11.gif" alt="Clock 10 - CLK11 - Motion" width="100%"></a><br><b>Clock 10</b><br><sub>Motion / Framed gear train</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk12.gif"><img src="media/motion-clk12.gif" alt="Clock 11 - CLK12 - Motion" width="100%"></a><br><b>Clock 11</b><br><sub>Motion / Dense clock face</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk14.gif"><img src="media/motion-clk14.gif" alt="Clock 12 - CLK14 - Motion" width="100%"></a><br><b>Clock 12</b><br><sub>Motion / Mechanical dial</sub></td>
-</tr>
-<tr>
-<td width="25%" align="center"><a href="media/motion-clk15.gif"><img src="media/motion-clk15.gif" alt="Clock 13 - CLK15 - Motion" width="100%"></a><br><b>Clock 13</b><br><sub>Motion / Arched frame</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk17.gif"><img src="media/motion-clk17.gif" alt="Clock 14 - CLK17 - Motion" width="100%"></a><br><b>Clock 14</b><br><sub>Motion / Lift and tower</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk18.gif"><img src="media/motion-clk18.gif" alt="Clock 15 - CLK18 - Motion" width="100%"></a><br><b>Clock 15</b><br><sub>Motion / Vertical linkages</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk20.gif"><img src="media/motion-clk20.gif" alt="Clock 16 - CLK20 - Motion" width="100%"></a><br><b>Clock 16</b><br><sub>Motion / Clock column</sub></td>
-</tr>
-<tr>
-<td width="25%" align="center"><a href="media/motion-clk22.gif"><img src="media/motion-clk22.gif" alt="Clock 17 - CLK22 - Motion" width="100%"></a><br><b>Clock 17</b><br><sub>Motion / Side linkage</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk24.gif"><img src="media/motion-clk24.gif" alt="Clock 18 - CLK24 - Motion" width="100%"></a><br><b>Clock 18</b><br><sub>Motion / Dial and lift</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk25.gif"><img src="media/motion-clk25.gif" alt="Clock 19 - CLK25 - Motion" width="100%"></a><br><b>Clock 19</b><br><sub>Motion / Architectural dial</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk27.gif"><img src="media/motion-clk27.gif" alt="Clock 20 - CLK27 - Motion" width="100%"></a><br><b>Clock 20</b><br><sub>Motion / Folding structure</sub></td>
-</tr>
-<tr>
-<td width="25%" align="center"><a href="media/motion-clk28.gif"><img src="media/motion-clk28.gif" alt="Clock 21 - CLK28 - Motion" width="100%"></a><br><b>Clock 21</b><br><sub>Motion / Tower mechanism</sub></td>
-<td width="25%" align="center"><a href="media/motion-clk29.gif"><img src="media/motion-clk29.gif" alt="Clock 22 - CLK29 - Motion" width="100%"></a><br><b>Clock 22</b><br><sub>Motion / Elevating walkway</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk31.gif"><img src="media/motion-clk31.gif" alt="Clock 23 - CLK31 - Motion" width="100%"></a><br><b>Clock 23</b><br><sub>Motion / Rail-guided motion</sub></td>
 <td width="25%" align="center"><a href="media/motion-clk32.gif"><img src="media/motion-clk32.gif" alt="Clock 24 - CLK32 - Motion" width="100%"></a><br><b>Clock 24</b><br><sub>Motion / Unfolding canopy</sub></td>
 </tr>
 </table>
 
-Clock 01-24 are presentation numbers for this browsing order. Original asset IDs remain in the [clock index](docs/clock-index.md). All 24 cards are animated GIFs. GIFs are five-second excerpts at the original playback speed, repeated for browsing. [More motion and viewport recordings](docs/motion-library.md).
+A steady view makes the relationships between rotation, travel and opening easier to judge.
+
+[Explore all 24 motion studies →](docs/motion-library.md#24-clock-motion-studies) · [Original asset IDs](docs/clock-index.md)
+
+Clock numbers indicate the presentation order. GIFs repeat short excerpts at the original playback speed; they are not guaranteed seamless cycles.
 
 ## Selected forms
+
+<table>
+<tr>
+<td width="25%" align="center"><a href="media/clk18.png"><img src="media/clk18.png" alt="CLK18 original render" width="100%"></a><br><b>CLK18</b></td>
+<td width="25%" align="center"><a href="media/orbit.png"><img src="media/orbit.png" alt="CLK31 original render" width="100%"></a><br><b>CLK31</b></td>
+<td width="25%" align="center"><a href="media/aperture.png"><img src="media/aperture.png" alt="CLK32 original render" width="100%"></a><br><b>CLK32</b></td>
+<td width="25%" align="center"><a href="media/differential-instrument.png"><img src="media/differential-instrument.png" alt="SPM14 original render" width="100%"></a><br><b>SPM14</b></td>
+</tr>
+</table>
+
+<details>
+<summary>Eight more rendered forms</summary>
 
 <table>
 <tr>
@@ -98,15 +109,11 @@ Clock 01-24 are presentation numbers for this browsing order. Original asset IDs
 <td width="25%" align="center"><a href="media/clk11.png"><img src="media/clk11.png" alt="CLK11 original render" width="100%"></a><br><b>CLK11</b></td>
 <td width="25%" align="center"><a href="media/clk12.png"><img src="media/clk12.png" alt="CLK12 original render" width="100%"></a><br><b>CLK12</b></td>
 </tr>
-<tr>
-<td width="25%" align="center"><a href="media/clk18.png"><img src="media/clk18.png" alt="CLK18 original render" width="100%"></a><br><b>CLK18</b></td>
-<td width="25%" align="center"><a href="media/orbit.png"><img src="media/orbit.png" alt="CLK31 original render" width="100%"></a><br><b>CLK31</b></td>
-<td width="25%" align="center"><a href="media/aperture.png"><img src="media/aperture.png" alt="CLK32 original render" width="100%"></a><br><b>CLK32</b></td>
-<td width="25%" align="center"><a href="media/differential-instrument.png"><img src="media/differential-instrument.png" alt="SPM14 original render" width="100%"></a><br><b>SPM14</b></td>
-</tr>
 </table>
 
-Twelve selected forms from the clock and mechanical collection. Click a render for its original-resolution view. [Browse all 32 clocks and selected mechanisms](docs/render-gallery.md).
+</details>
+
+Click any render to inspect it. [Browse all clocks and selected mechanisms →](docs/render-gallery.md)
 
 ## A control system behind each assembly
 
@@ -124,6 +131,17 @@ Built-in settings drive motion through native Blender drivers, object hierarchie
 | Gear detail on supported assets | CLK31 / CLK32 / `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
 
 Controls vary by asset. Opening angles and positions may be calculated outputs, so adjustments belong upstream in the controller. [Explore the controls](docs/controls.md).
+
+## Inside Blender: from library to moving assembly
+
+<table>
+<tr><th width="50%">Inspect the opening mechanism</th><th width="50%">Browse and place an asset</th></tr>
+<tr><td><a href="media/opening-in-blender.mp4"><img src="media/opening-in-blender.gif" width="100%" alt="Original Blender recording of the opening assembly"></a></td><td><a href="media/library-placement.mp4"><img src="media/library-placement.gif" width="100%" alt="Original Blender asset library placement recording"></a></td></tr>
+</table>
+
+[Opening mechanism · MP4](media/opening-in-blender.mp4) · [Asset placement · MP4](media/library-placement.mp4)
+
+These original viewport recordings show the working scene and library. A narrated control-change walkthrough is the next evidence to add; these excerpts do not by themselves demonstrate every parameter.
 
 ## Components for a new design
 

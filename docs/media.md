@@ -65,7 +65,7 @@ The separate render gallery includes CLK01-32; the motion grid contains 24 selec
 
 ## Compact motion atlas and 4K cover
 
-The homepage motion grid includes 24 individual clock animation cards at 320 x 400 pixels, displayed four per row across six complete rows. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
+The detailed motion library contains 24 individual clock animation cards at 320 x 400 pixels, displayed four per row in separated sections. The homepage selects eight of them in two rows. All clips are five seconds at 10 fps, with 128-color palettes. Their original playback speed is retained. Crops are fixed for each clip and derived from the union of foreground bounds across all 50 sampled frames, with a safety margin; a neutral surround gives the cards a consistent aspect ratio.
 
 The separate 480-pixel-wide motion files remain available to the detailed control walkthrough. The 4K cover is an original video frame, not an enlarged GIF.
 
@@ -114,3 +114,18 @@ The presentation order groups eight rotating views before 16 fixed-view motion c
 | `media/clk28.png` | `Thumbnails/CLK28_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
 | `media/clk29.png` | `Thumbnails/CLK29_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
 | `media/clk30.png` | `Thumbnails/CLK30_thumbnail.png` | Unchanged original thumbnail, copied for the complete clock collection |
+
+## Structure/material and workflow additions · 22 October 2026
+
+All source files were opened read-only; derivatives are separate presentation files.
+
+| Presentation file | Original source | Preparation |
+| --- | --- | --- |
+| `structure-pass.jpg` | `2_lineweight_collection.mp4` | Frame at 1.0 s; 2160 × 3840. |
+| `material-pass.jpg` | `2_render.mp4` | Frame at 1.0 s; 2160 × 3840. |
+| `structure-material-comparison.jpg` | The two frames above | Each scaled to 1080 × 1920; 24 px gap. No generative rendering or retouching. Different motion phases. |
+| `opening-in-blender.mp4` / `.gif` | `Recording_3.mp4` | 1–7 s; silent 1280 × 720 MP4, 640 × 360 / 8 fps GIF. |
+| `library-placement.mp4` / `.gif` | `Recording_6.mp4` | 6–15 s; silent 1280 × 720 MP4, 640 × 360 / 8 fps GIF. |
+| `collection-in-viewport.gif` | `Individual asset animation_collection.mp4` | 4–9 s; 520 px wide / 8 fps. |
+
+The README now shows two separate rows of four motion previews. The full 24-study catalog remains in the motion library, separated by viewing task. Additional rendered forms are expandable.

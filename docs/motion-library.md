@@ -10,10 +10,11 @@
 
 ## 24 clock motion studies
 
-24 motion studies in one four-column collection: eight rotating views first, followed by 16 fixed-view mechanisms. Click a card to inspect it.
+Eight rotating views and 16 fixed-view mechanisms, grouped into smaller sections. Click a card to inspect it.
+
+### Rotating views
 
 <table>
-<tr><th colspan="4" align="left">01 / Rotating views</th></tr>
 <tr>
 <td width="25%" align="center"><a href="../media/motion-clk02.gif"><img src="../media/motion-clk02.gif" alt="Clock 01 - CLK02 - Turntable" width="100%"></a><br><b>Clock 01</b><br><sub>Turntable / Layered dial</sub></td>
 <td width="25%" align="center"><a href="../media/motion-clk03.gif"><img src="../media/motion-clk03.gif" alt="Clock 02 - CLK03 - Turntable" width="100%"></a><br><b>Clock 02</b><br><sub>Turntable / Open frame</sub></td>
@@ -26,7 +27,13 @@
 <td width="25%" align="center"><a href="../media/motion-clk08.gif"><img src="../media/motion-clk08.gif" alt="Clock 07 - CLK08 - Turntable" width="100%"></a><br><b>Clock 07</b><br><sub>Turntable / Exposed movement</sub></td>
 <td width="25%" align="center"><a href="../media/motion-clk10.gif"><img src="../media/motion-clk10.gif" alt="Clock 08 - CLK10 - Turntable" width="100%"></a><br><b>Clock 08</b><br><sub>Turntable / Skeleton frame</sub></td>
 </tr>
-<tr><th colspan="4" align="left">02 / Fixed views - moving mechanisms</th></tr>
+</table>
+
+<br>
+
+### Fixed views · dials and gear trains
+
+<table>
 <tr>
 <td width="25%" align="center"><a href="../media/motion-clk09.gif"><img src="../media/motion-clk09.gif" alt="Clock 09 - CLK09 - Motion" width="100%"></a><br><b>Clock 09</b><br><sub>Motion / Open dial</sub></td>
 <td width="25%" align="center"><a href="../media/motion-clk11.gif"><img src="../media/motion-clk11.gif" alt="Clock 10 - CLK11 - Motion" width="100%"></a><br><b>Clock 10</b><br><sub>Motion / Framed gear train</sub></td>
@@ -39,6 +46,13 @@
 <td width="25%" align="center"><a href="../media/motion-clk18.gif"><img src="../media/motion-clk18.gif" alt="Clock 15 - CLK18 - Motion" width="100%"></a><br><b>Clock 15</b><br><sub>Motion / Vertical linkages</sub></td>
 <td width="25%" align="center"><a href="../media/motion-clk20.gif"><img src="../media/motion-clk20.gif" alt="Clock 16 - CLK20 - Motion" width="100%"></a><br><b>Clock 16</b><br><sub>Motion / Clock column</sub></td>
 </tr>
+</table>
+
+<br>
+
+### Fixed views · architectural motion
+
+<table>
 <tr>
 <td width="25%" align="center"><a href="../media/motion-clk22.gif"><img src="../media/motion-clk22.gif" alt="Clock 17 - CLK22 - Motion" width="100%"></a><br><b>Clock 17</b><br><sub>Motion / Side linkage</sub></td>
 <td width="25%" align="center"><a href="../media/motion-clk24.gif"><img src="../media/motion-clk24.gif" alt="Clock 18 - CLK24 - Motion" width="100%"></a><br><b>Clock 18</b><br><sub>Motion / Dial and lift</sub></td>
@@ -54,6 +68,12 @@
 </table>
 
 Clock 01-24 are presentation numbers for this browsing order. Original asset IDs remain in the [clock index](clock-index.md). All 24 cards are animated GIFs. GIFs are five-second excerpts at the original playback speed, repeated for browsing.
+
+## Original viewport collection
+
+<p align="center"><a href="../media/viewport-collection.mp4"><img src="../media/collection-in-viewport.gif" width="520" alt="Collection of animated assemblies in the Blender viewport"></a></p>
+
+Excerpt from `Individual asset animation_collection.mp4`, showing several mechanisms together.
 
 ## Structure across the collection
 

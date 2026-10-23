@@ -75,3 +75,7 @@ The package's historical audit records checks of 46 assets and 2,640 drivers ove
 **Next validation:** record one complete adaptation from brief through controller changes to checked output, including a real adjustment or failure. Capture the settings before and after, active work time and any manual corrections. Ask a creator unfamiliar with the library to repeat the task. Expand the agent workflow only when it preserves the mechanism and the creator can explain and correct its changes; otherwise iterate on inspection and recovery. This is the next test, not a completed study.
 
 [Shared control model and engineering handoff](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/creative-control.md)
+
+## Visual evidence: construction, finish and use
+
+[Compare the original structure and material passes](../media/structure-material-comparison.jpg), then inspect the [opening mechanism](../media/opening-in-blender.mp4) and [library placement](../media/library-placement.mp4) recordings. Together they connect mechanical legibility, surface craft and the working Blender environment. They are visual evidence of the artifact; they do not establish adoption, time saved or a new end-to-end Skill run.
