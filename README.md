@@ -1,12 +1,38 @@
 # STEAMPUNK CLOCKWORK
 
-### From a designer's production rules to an adaptable asset library
+### My original models → AI-assisted mechanisms → creator controls
 
-**46 animated Blender assets / 32 clocks / 14 mechanical assemblies / Editable controls**
+I modeled the original source collection myself, then organized those models and design references as inputs for Codex-assisted development. I directed the visual language and reviewed the mechanisms while AI helped inspect the files, develop related structures and implement gear linkages. The result is a reusable Blender motion system, delivered as a 46-asset library.
 
-**[Read the production-to-product case](docs/production-case.md)** — the problem, design decisions, role of AI, creator controls and delivery checks.
+**[How I built it](docs/process.md)** · [Production problem and product decisions](docs/production-case.md) · [Controller reference](docs/controls.md) · [Workflow Skill](docs/workflow-skill.md)
 
-I built from my own model collection and design standards, using Codex to assist development. The result connects detailed visual craft with an editable product workflow. The packaged instruction Skill is a later extension whose new end-to-end execution remains to be verified.
+| Stage | My contribution | AI / implementation contribution |
+| --- | --- | --- |
+| Prepare the inputs | Model the original geometry; organize source files and references; define the desired forms and motion | Inspect the supplied structures and work within the brief |
+| Develop mechanisms | Direct the gear, frame and linkage relationships; review the proposed results | Assist development of linked motion with Blender drivers, hierarchies and constraints |
+| Expose useful controls | Decide which changes a creator should make, such as speed and phase | Connect those inputs to the dependent moving components |
+| Deliver reusable work | Select and organize assemblies, previews, documentation and visual evidence | Assist implementation and packaging; a later instruction Skill records the adaptation method |
+
+The input was my existing modeled work and design specification. This documents AI-assisted development, not a model-training result. The later Skill has not yet been exercised end to end on a new Blender task.
+
+## A control system behind each assembly
+
+Built-in settings drive motion through native Blender drivers, object hierarchies and constraints. Adjust the root controller; the connected parts follow their existing relationships.
+
+**Controller inputs -> linked motion -> moving components**
+
+| What you want to change | Example controls | What they affect |
+| --- | --- | --- |
+| Chain movement | SPM03 / `Chain_Drive_Speed` | Chain speed, alongside the assembly's overall speed and phase settings. |
+| Gear rotation | CLK08 / `Gear_Display_Speed` | Visible mechanism speed; clock-hand timing has separate controls. |
+| Opening and folding rhythm | CLK32 / `Master_RPM`, `Speed_Scale`, `Phase_Deg` | The input speed and phase driving the unfolding mechanism. |
+| Travel along an existing path | CLK31 / `Master_RPM`, `Speed_Scale` | The pace of the connected rail mechanism. |
+| Clock behavior | CLK08 / `Start_Hour`, `Start_Minute`, `Start_Second`, `Second_Tick_Blend` | Initial time and smooth or stepped seconds. |
+| Gear detail on supported assets | CLK31 / CLK32 / `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
+
+Controls vary by asset. Opening angles and positions may be calculated outputs, so adjustments belong upstream in the controller. [Explore the controls](docs/controls.md).
+
+## Finished collection
 
 [![Clockwork collection - original 4K render](media/collection-hero-4k.jpg)](media/collection-hero-4k.jpg)
 
@@ -16,7 +42,7 @@ I built from my own model collection and design standards, using Codex to assist
 
 Steampunk Clockwork turns a design language of exposed gears, layered mechanisms and architectural frames into an adaptable Blender asset library. Use a complete assembly as a focal point, tune its motion to a shot, or develop a new composition from its editable components.
 
-I began with my own model collection and a set of design standards. Those standards guided the mechanical variations, the level of detail and the way movement is presented. Codex assisted with inspecting the files and developing structures within that direction.
+The finished forms below are evidence of that development process. To assess the system behind them, start with the editable controls and the dependency-preserving adaptation method.
 
 ## The reusable workflow behind the assets
 
@@ -126,23 +152,6 @@ Clock numbers indicate the presentation order. GIFs repeat short excerpts at the
 
 Click any render to inspect it. [Browse all clocks and selected mechanisms →](docs/render-gallery.md)
 
-## A control system behind each assembly
-
-Built-in settings drive motion through native Blender drivers, object hierarchies and constraints. Adjust the root controller; the connected parts follow their existing relationships.
-
-**Controller inputs -> linked motion -> moving components**
-
-| What you want to change | Example controls | What they affect |
-| --- | --- | --- |
-| Chain movement | SPM03 / `Chain_Drive_Speed` | Chain speed, alongside the assembly's overall speed and phase settings. |
-| Gear rotation | CLK08 / `Gear_Display_Speed` | Visible mechanism speed; clock-hand timing has separate controls. |
-| Opening and folding rhythm | CLK32 / `Master_RPM`, `Speed_Scale`, `Phase_Deg` | The input speed and phase driving the unfolding mechanism. |
-| Travel along an existing path | CLK31 / `Master_RPM`, `Speed_Scale` | The pace of the connected rail mechanism. |
-| Clock behavior | CLK08 / `Start_Hour`, `Start_Minute`, `Start_Second`, `Second_Tick_Blend` | Initial time and smooth or stepped seconds. |
-| Gear detail on supported assets | CLK31 / CLK32 / `Teeth_Multiplier` | Linked tooth density at 1 / 2 / 3, with pitch radii and transmission ratios retained. |
-
-Controls vary by asset. Opening angles and positions may be calculated outputs, so adjustments belong upstream in the controller. [Explore the controls](docs/controls.md).
-
 ## Inside Blender: from library to moving assembly
 
 <table>
@@ -216,3 +225,21 @@ All visuals come from the supplied renders and recordings. GIFs are excerpts rat
 The commercial Blender files are distributed through the product page. This showcase does not grant an open-source license to those assets.
 
 </details>
+
+## Repository map
+
+```text
+steampunk-clockwork-showcase/
+├── README.md                      Build overview, control system and visual evidence
+├── docs/
+│   ├── process.md                 Original models → AI-assisted development
+│   ├── production-case.md         Problem, decisions, evidence and next test
+│   ├── controls.md                Documented inputs and linked motion
+│   ├── component-reuse.md         Dependencies to preserve during adaptation
+│   ├── workflow-skill.md          Scope of the reusable instruction Skill
+│   └── validation.md              Historical checks and their limits
+├── skills/clockwork-assembly/     Inspectable adaptation instructions
+└── media/                        Renders, motion excerpts and Blender recordings
+```
+
+The public repository documents the workflow and selected evidence. The commercial Blender source library is supplied through [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets).

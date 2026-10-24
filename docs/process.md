@@ -2,11 +2,24 @@
 
 [Back to the case study](../README.md)
 
-## Start with the designer's rules
+## Start with work I modeled myself
 
-I started from an existing model collection and defined the direction and standards for the new work. The aim was to create a coherent family: detailed mechanical structures whose form and movement could be read together.
+I modeled the original source collection before this AI-assisted workflow. I then organized those models and references and supplied them to Codex with my design direction: detailed mechanical structures whose silhouette, gear layers, frames and movement could be read together.
 
-The reference collection gave the work a concrete basis. My role was to set that direction, judge the variations and decide which structures belonged in the library. Codex inspected the source files and assisted with developing variations under those constraints.
+That preparation is part of the work. The input gives the AI concrete geometry and a visual standard to inspect; the brief gives it a task. I selected and reviewed the resulting variations, and directed which forms and movements belonged in the library. The models were task inputs and references, not a newly trained AI model.
+
+## Turn the prepared inputs into linked behavior
+
+I used Codex to assist source inspection and the development of related mechanisms and gear linkages. The implementation expresses motion through native Blender drivers, object hierarchies and constraints. My responsibility was to set the intended visual and mechanical relationships and judge the results.
+
+| Input or decision | Resulting system behavior | Evidence |
+| --- | --- | --- |
+| My modeled components and design references | Related forms developed within a consistent visual direction | [Original collection and finished studies](render-gallery.md) |
+| A need to adjust mechanism rhythm | Upstream speed and phase inputs propagate through linked parts | [Gear, chain and travel controls](controls.md) |
+| A need to open a larger assembly coherently | Inputs drive the opening; the calculated angle remains a result | [CLK32 control example](controls.md#opening-and-folding--clk32-aperture) |
+| A need to reuse a mechanism in another scene | Preserve the controller, hierarchy and dependent targets together | [Reuse procedure](component-reuse.md) |
+
+The available artifacts show the developed system and its documented controls. A complete source-to-output development recording and a fresh adaptation run remain evidence to add; the renders alone do not establish the entire development history.
 
 ## Connect form, detail and movement
 

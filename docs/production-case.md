@@ -2,9 +2,9 @@
 
 [← Collection and motion gallery](../README.md) · [Controls](controls.md) · [Workflow Skill](workflow-skill.md) · [Superhive product](https://superhivemarket.com/products/steampunk-clockwork-animated-assets)
 
-**A designer's original model collection and visual standards became 46 animated Blender assets, editable motion controls and a reusable adaptation procedure.**
+**I modeled the source collection, organized it for AI-assisted development, and turned it into linked mechanisms, editable controls and a reusable Blender library.**
 
-This is my strongest existing example of turning hands-on visual work into a product another creator can use. My contribution was the original models, design direction and evaluation standards, selection of mechanical variations, and the organization of the library. Codex assisted with source inspection and development under that direction.
+I supplied models I had made myself, organized the source work and references, set the visual and motion requirements, and reviewed the resulting mechanisms. Codex assisted source inspection and the development of structures and gear linkages within that direction. The 46-asset product is the delivered outcome; the design of the inputs, dependencies and creator controls is the process to examine. [Read the build process](process.md).
 
 ## The smallest useful task
 
@@ -53,7 +53,7 @@ This is the product insight: a creator should control the behavior they care abo
 
 | Layer | Current evidence | Creator responsibility |
 | --- | --- | --- |
-| Development | Codex assisted inspection and variations under my direction | Set the visual standard, review structure and movement, select the result |
+| Development | My organized, self-modeled inputs guided Codex-assisted inspection, mechanism development and linkages | Set the visual standard, review structure and movement, select the result |
 | Asset operation | Native drivers, constraints and hierarchies propagate selected controller values | Choose the module, tune rhythm, inspect the whole shot |
 | Agent adaptation | An instruction Skill is packaged; a new end-to-end run is pending | Specify the new composition and review changes that alter silhouette or dependencies |
 | Delivery | A commercial library, previews and instructions exist | Approve the particular output and its intended use |

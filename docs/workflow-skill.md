@@ -47,7 +47,7 @@ An agent following the Skill should first inspect the actual root controller and
 
 ## My contribution and the role of AI
 
-I supplied the original model collection, design direction and evaluation standards, reviewed the mechanical variations, and shaped the library as a usable creative product. Codex assisted with inspecting source files and developing structures within that direction. The Skill makes the adaptation procedure explicit so those decisions can be carried into another task.
+I modeled the original source collection myself, organized it as input and references, set the design direction, reviewed mechanical variations and shaped the library as a usable creative product. Codex assisted source inspection and the development of structures and gear linkages under those constraints. The Skill makes the adaptation procedure explicit so those decisions can be carried into another task.
 
 ## Evidence and current status
 
