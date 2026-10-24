@@ -1,5 +1,7 @@
 # Documented validation scope
 
+[← Clockwork overview](../README.md) · [Build process](process.md)
+
 This summary is based on the supplied package documentation. The portfolio preparation did not open or modify the original Blender files or repeat their full animation audit.
 
 - The README records Blender 5.2.0 LTS, Windows and Cycles as the tested environment.

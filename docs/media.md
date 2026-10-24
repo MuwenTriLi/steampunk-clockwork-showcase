@@ -1,5 +1,7 @@
 # Media provenance
 
+[← Clockwork overview](../README.md) · [Build process](process.md)
+
 The visual selection uses existing renders and recordings supplied by Muwen Li. The previous `ML_SHOWCASE_01.png` composition was removed from the current showcase at the author's request. No new AI-generated render was used for this revision.
 
 ## Source map
