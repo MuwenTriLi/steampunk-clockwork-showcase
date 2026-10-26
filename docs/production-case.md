@@ -55,7 +55,7 @@ This is the product insight: a creator should control the behavior they care abo
 | --- | --- | --- |
 | Development | My organized, self-modeled inputs guided Codex-assisted inspection, mechanism development and linkages | Set the visual standard, review structure and movement, select the result |
 | Asset operation | Native drivers, constraints and hierarchies propagate selected controller values | Choose the module, tune rhythm, inspect the whole shot |
-| Agent adaptation | An instruction Skill is packaged; a new end-to-end run is pending | Specify the new composition and review changes that alter silhouette or dependencies |
+| Agent adaptation | A [CLK32 speed study](control-study.md) records an actual inspection, parameter change, compatibility failure and bounded checks | Specify the new composition and review changes that alter silhouette or dependencies |
 | Delivery | A commercial library, previews and instructions exist | Approve the particular output and its intended use |
 
 For future agent execution, routine inspection and approved parameter edits can proceed in a working copy. Missing targets, ambiguous controls or a proposed dependency-changing edit should return a specific review item. The creator should see the affected component, before/after settings and a preview. These are workflow requirements, not a new agent UI already shipping with the library.
@@ -72,7 +72,7 @@ The package's historical audit records checks of 46 assets and 2,640 drivers ove
 
 **Design takeaway:** component reuse depends on explicit motion dependencies and meaningful controls. The most useful AI assistance works inside a designer's specification and returns changes that can be inspected.
 
-**Next validation:** record one complete adaptation from brief through controller changes to checked output, including a real adjustment or failure. Capture the settings before and after, active work time and any manual corrections. Ask a creator unfamiliar with the library to repeat the task. Expand the agent workflow only when it preserves the mechanism and the creator can explain and correct its changes; otherwise iterate on inspection and recovery. This is the next test, not a completed study.
+**New evidence:** the [CLK32 study](control-study.md) records a real speed adjustment, a Blender 5.0 compatibility failure and successful 5.2 checks. Active human work time was not measured. **Next validation:** ask a creator unfamiliar with the library to repeat the task. Expand the agent workflow only when it preserves the mechanism and the creator can explain and correct its changes; otherwise iterate on inspection and recovery. This is the next test, not a completed study.
 
 [Shared control model and engineering handoff](https://github.com/MuwenTriLi/creative-workflows/blob/main/docs/creative-control.md)
 

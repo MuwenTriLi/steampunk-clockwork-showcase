@@ -58,7 +58,7 @@ The project combines **designed components**, **linked motion logic** and **an a
 | Modular assembly | Reuse a complete mechanism or adapt selected parts, subassemblies and procedural materials. |
 | Product delivery | Browse, place and adjust an organized Asset Browser library with previews and instructions. |
 
-The [`clockwork-assembly` Skill](../skills/clockwork-assembly/SKILL.md) packages the inspection, adaptation and checking procedure as reusable agent instructions. It was distilled for this showcase from the existing project workflow; a new end-to-end Skill run is still to be verified. [Explore the workflow, inputs and outputs](workflow-skill.md).
+The [`clockwork-assembly` Skill](../skills/clockwork-assembly/SKILL.md) packages the inspection, adaptation and checking procedure as reusable agent instructions. It was distilled for this showcase from the existing project workflow; a bounded [CLK32 timing edit](control-study.md) has been executed and checked. Broader recomposition remains to be verified. [Explore the workflow, inputs and outputs](workflow-skill.md).
 
 ## Structure → material
 

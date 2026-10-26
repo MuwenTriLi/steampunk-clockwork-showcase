@@ -2,7 +2,7 @@
 
 [← Clockwork overview](../README.md) · [Build process](process.md)
 
-This summary is based on the supplied package documentation. The portfolio preparation did not open or modify the original Blender files or repeat their full animation audit.
+This summary is based on the supplied package documentation. The initial portfolio restructuring did not rerun that full animation audit. A later bounded, single-asset run is recorded separately below; the source library was not modified.
 
 - The README records Blender 5.2.0 LTS, Windows and Cycles as the tested environment.
 - The release validation record is dated 2026-09-06. It reports default-animation checks across 46 assets and 2,640 drivers over frames 1-1,441, with no invalid or non-finite driver results.
@@ -16,4 +16,4 @@ Before a new product release, checks should be rerun against that exact release 
 
 ## Packaged workflow Skill
 
-`skills/clockwork-assembly/SKILL.md` is a newly packaged instruction workflow based on the documented controls and reuse method. Its frontmatter and package structure were validated. No new Blender scene was modified and no end-to-end Skill execution was performed for this documentation update. Existing renders and release checks remain evidence of the asset project, not validation of a new Skill run.
+`skills/clockwork-assembly/SKILL.md` is a newly packaged instruction workflow based on the documented controls and reuse method. Its frontmatter and package structure were validated. The initial documentation update did not exercise the Skill. The subsequent [CLK32 control study](control-study.md) used a separate working scene to inspect dependencies, adjust one speed input, evaluate 601 frames per setting and render a comparison in Blender 5.2. This validates that bounded procedure, not autonomous redesign or the entire library.

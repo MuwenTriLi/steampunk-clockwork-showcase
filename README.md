@@ -44,13 +44,13 @@ Controls vary by asset. Use the [controller reference](docs/controls.md) before 
 
 ## Automation and creator control
 
-Native drivers propagate accepted inputs to connected parts. The creator determines the form, motion intent, speed, phase and final acceptance. The later [clockwork-assembly Skill](skills/clockwork-assembly/SKILL.md) records an inspection/adaptation/checking procedure; a fresh end-to-end execution on a new brief is still pending.
+Native drivers propagate accepted inputs to connected parts. The creator determines the form, motion intent, speed, phase and final acceptance. The later [clockwork-assembly Skill](skills/clockwork-assembly/SKILL.md) records an inspection/adaptation/checking procedure; a [checked CLK32 speed adjustment](docs/control-study.md) now records the actual input, working-copy change, compatibility failure and verification results. Broader recomposition is not established by that narrow test.
 
 ## Evidence and next decision
 
-Available evidence includes the commercial library, original renders, motion excerpts, Blender recordings and documented historical release checks. [Validation scope](docs/validation.md) identifies their dates and limits; this repository update does not rerun the Blender audit.
+Available evidence includes the commercial library, original renders, motion excerpts, Blender recordings and documented historical release checks. [Validation scope](docs/validation.md) distinguishes historical release checks from the new, single-asset [control study](docs/control-study.md).
 
-The next useful proof is one recorded adaptation: keep the source intact, change a documented control, show one correction and inspect the encoded result. Independent creator success and time savings have not been measured.
+The new control study changes speed from 1.0 to 0.75 with the driver graph preserved. Independent creator success, broader recomposition and time savings have not been measured.
 
 ## Repository map
 

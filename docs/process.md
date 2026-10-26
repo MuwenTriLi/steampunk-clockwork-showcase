@@ -19,7 +19,7 @@ I used Codex to assist source inspection and the development of related mechanis
 | A need to open a larger assembly coherently | Inputs drive the opening; the calculated angle remains a result | [CLK32 control example](controls.md#opening-and-folding--clk32-aperture) |
 | A need to reuse a mechanism in another scene | Preserve the controller, hierarchy and dependent targets together | [Reuse procedure](component-reuse.md) |
 
-The available artifacts show the developed system and its documented controls. A complete source-to-output development recording and a fresh adaptation run remain evidence to add; the renders alone do not establish the entire development history.
+The available artifacts show the developed system and its documented controls. A complete source-to-output development recording remains evidence to add. A later [single-control adaptation](control-study.md) records a real adjustment and its checks; it does not reconstruct the original development history.
 
 ## Connect form, detail and movement
 

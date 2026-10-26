@@ -51,4 +51,4 @@ I modeled the original source collection myself, organized it as input and refer
 
 ## Evidence and current status
 
-The renders, motion studies, controller documentation and commercial delivery are existing project evidence. The Skill file was packaged for this showcase and its structure has been validated; it has not yet been exercised end to end on a new Blender task. The commercial model files are supplied separately through the product, and are not included in this instruction package. See [verification scope](validation.md).
+The renders, motion studies, controller documentation and commercial delivery are existing project evidence. The Skill was exercised on a bounded [CLK32 speed-adjustment task](control-study.md), from inspection to a checked working copy and diagnostic preview. A new composition, hidden-dependency repair and independent creator use remain unverified. The commercial model files are supplied separately through the product, and are not included in this instruction package. See [verification scope](validation.md).
