@@ -60,4 +60,4 @@ Original vertical product-page and rendered-footage presentation.
 
 [Open MP4](https://muwentrili.github.io/creative-workflows/films/?project=clockwork&film=product-presentation)
 
-These existing viewing copies are silent. Recordings are selected excerpts where noted in the source record; they do not demonstrate every controller or a newly verified Skill run. Commercial Blender source assets remain distributed through the product page.
+These existing viewing copies are silent. Recordings are selected excerpts where noted in the source record; they do not demonstrate every controller or a newly verified Skill run. Blender source assets remain distributed through the product page.

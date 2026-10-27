@@ -38,4 +38,4 @@ For agent-assisted adaptation, the [Clockwork assembly Skill](../skills/clockwor
 4. Retain or rebuild motion dependencies as appropriate; then adjust materials and composition.
 5. Preview the changed asset through its full intended motion range before rendering.
 
-These are adaptation guidelines for the existing library, not a demonstration of an already-built derivative project. Commercial asset use remains subject to the product's license.
+These are adaptation guidelines for the existing library, not a demonstration of an already-built derivative project. asset use remains subject to the product's license.

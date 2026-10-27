@@ -215,7 +215,7 @@ Register the product's `Asset Library` folder in Blender, choose a complete asse
 | Documentation | Setup, controller reference and recorded release checks |
 | Format | Editable native Blender files; no add-on required to use the model library |
 
-Get the commercial asset package on [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets). This repository presents the project and selected media.
+Get the asset package on [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets). This repository presents the project and selected media.
 
 <details>
 <summary><b>Compatibility and presentation notes</b></summary>
@@ -224,7 +224,7 @@ The package records testing in Blender 5.2.0 LTS on Windows with Cycles. These a
 
 All visuals come from the supplied renders and recordings. GIFs are excerpts rather than guaranteed seamless cycles. See [verification scope](validation.md) and [media provenance](media.md).
 
-The commercial Blender files are distributed through the product page. This showcase does not grant an open-source license to those assets.
+The Blender library files are distributed through the product page. This showcase does not grant an open-source license to those assets.
 
 </details>
 
@@ -244,4 +244,4 @@ steampunk-clockwork-showcase/
 └── media/                        Renders, motion excerpts and Blender recordings
 ```
 
-The public repository documents the workflow and selected evidence. The commercial Blender source library is supplied through [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets).
+The public repository documents the workflow and selected evidence. The Blender source library is supplied through [Superhive](https://superhivemarket.com/products/steampunk-clockwork-animated-assets).

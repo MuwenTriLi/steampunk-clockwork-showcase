@@ -34,7 +34,7 @@ The shipped library and documented controls support this direction. Independent 
 | A scene needs a different rhythm | Expose upstream speed and phase controls; preserve linked motion | [CLK08 gear timing](controls.md#clock-and-gear-timing--clk08), [CLK31 travel](controls.md#travel-rhythm--clk31-orbit) |
 | Opening should remain mechanically connected | Drive the opening from the input rather than directly overriding the result | [CLK32 controls](controls.md#opening-and-folding--clk32-aperture) |
 | A creator wants to reuse only part of a design | Distinguish complete assemblies, animated subassemblies and geometry reuse | [Component reuse](component-reuse.md) |
-| Someone else must find and use the assets | Package categories, previews, materials and instructions | [Asset Browser and delivery](../README.md#browse--place--adjust--animate) |
+| Someone else must find and use the assets | Package categories, previews, materials and instructions | [Asset Browser and delivery](visual-tour.md#browse--place--adjust--animate) |
 
 <table><tr>
 <td width="50%"><img src="../media/motion-clk08.gif" alt="Existing CLK08 motion study" width="100%"><br><b>Gear and clock timing are separate decisions</b></td>
@@ -56,7 +56,7 @@ This is the product insight: a creator should control the behavior they care abo
 | Development | My organized, self-modeled inputs guided Codex-assisted inspection, mechanism development and linkages | Set the visual standard, review structure and movement, select the result |
 | Asset operation | Native drivers, constraints and hierarchies propagate selected controller values | Choose the module, tune rhythm, inspect the whole shot |
 | Agent adaptation | A [CLK32 speed study](control-study.md) records an actual inspection, parameter change, compatibility failure and bounded checks | Specify the new composition and review changes that alter silhouette or dependencies |
-| Delivery | A commercial library, previews and instructions exist | Approve the particular output and its intended use |
+| Delivery | A Blender library, previews and instructions exist | Approve the particular output and its intended use |
 
 For future agent execution, routine inspection and approved parameter edits can proceed in a working copy. Missing targets, ambiguous controls or a proposed dependency-changing edit should return a specific review item. The creator should see the affected component, before/after settings and a preview. These are workflow requirements, not a new agent UI already shipping with the library.
 
@@ -68,7 +68,7 @@ The package's historical audit records checks of 46 assets and 2,640 drivers ove
 
 ## 7. Outcome, learning and next decision
 
-**Existing outcome:** a commercial collection of 32 clocks and 14 mechanical assemblies, categorized Asset Browser previews, reusable materials, presentation scenes and controller documentation. The public repository presents selected evidence; the commercial source package is supplied separately.
+**Existing outcome:** a Blender collection of 32 clocks and 14 mechanical assemblies, categorized Asset Browser previews, reusable materials, presentation scenes and controller documentation. The public repository presents selected evidence; the source package is supplied separately.
 
 **Design takeaway:** component reuse depends on explicit motion dependencies and meaningful controls. The most useful AI assistance works inside a designer's specification and returns changes that can be inspected.
 

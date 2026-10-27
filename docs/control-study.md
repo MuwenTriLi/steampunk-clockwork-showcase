@@ -2,7 +2,7 @@
 
 [← Clockwork](../README.md) · [Controller reference](controls.md#opening-and-folding--clk32-aperture) · [Machine-readable result](../media/control-study/results.json)
 
-**Task:** slow the existing opening mechanism by 25%, retain its motion dependencies and keep the commercial source unchanged. This is a portfolio demonstration performed on October 26, 2026, not a client commission or a user study.
+**Task:** slow the existing opening mechanism by 25%, retain its motion dependencies and keep the source unchanged. This is a portfolio demonstration performed on October 26, 2026, not a client commission or a user study.
 
 ## Watch the exact revision
 
@@ -25,10 +25,10 @@ On **Blender 5.2.0 LTS / Windows**, both evaluations reported zero invalid objec
 
 The first attempt on **Blender 5.0.1** found invalid geometry-node modifier input paths on this asset; it stopped rather than reporting success. Repeating the task in the library's documented 5.2 environment passed. This does not establish support for every Blender version.
 
-The two stills were visually inspected, and the encoded comparison was fully decoded. These checks do not establish collision-free motion, usability by an unfamiliar creator, validity of arbitrary settings or correctness across all 46 assets. A new commercial release needs its own full audit.
+The two stills were visually inspected, and the encoded comparison was fully decoded. These checks do not establish collision-free motion, usability by an unfamiliar creator, validity of arbitrary settings or correctness across all 46 assets. A new release needs its own full audit.
 
 ## Who controlled the work
 
 Muwen's original models and existing mechanism supplied the design and dependencies. Codex followed the published assembly Skill to inspect the local source, adjust the actual input, evaluate the working copy and produce this record. The speed-change brief was an explicit demonstration chosen for the portfolio. There was no new model training, API-generated geometry, autonomous redesign or measured time-saving claim.
 
-**Decision:** retain upstream controls for repeatable timing edits. Next, ask an unfamiliar creator to repeat this task and explain how to restore the original setting. Recomposition or dependency changes require a separate review. The commercial `.blend` remains outside this public repository.
+**Decision:** retain upstream controls for repeatable timing edits. Next, ask an unfamiliar creator to repeat this task and explain how to restore the original setting. Recomposition or dependency changes require a separate review. The source `.blend` remains outside this public repository.
